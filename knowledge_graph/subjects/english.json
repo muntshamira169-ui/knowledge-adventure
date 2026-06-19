@@ -1,0 +1,567 @@
+{
+  "subject": "english",
+  "name": "英语",
+  "stages": [
+    {
+      "name": "小学（3-6年级）",
+      "grade_range": "3-6",
+      "modules": [
+        {
+          "name": "字母与语音",
+          "units": [
+            {
+              "name": "字母与音标",
+              "points": [
+                {
+                  "id": "pe_001",
+                  "name": "26个字母的认读与书写",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pe_002",
+                  "name": "元音字母与辅音字母",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pe_001"
+                  ]
+                },
+                {
+                  "id": "pe_003",
+                  "name": "自然拼读基础",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pe_002"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "基础词汇",
+          "units": [
+            {
+              "name": "主题词汇",
+              "points": [
+                {
+                  "id": "pe_004",
+                  "name": "颜色/数字/家庭成员",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pe_005",
+                  "name": "学校/文具/身体部位",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pe_006",
+                  "name": "食物/动物/衣物",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pe_007",
+                  "name": "天气/季节/星期/月份",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "基础语法",
+          "units": [
+            {
+              "name": "基础句法",
+              "points": [
+                {
+                  "id": "pe_008",
+                  "name": "be动词(am/is/are)",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pe_009",
+                  "name": "have/has",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pe_008"
+                  ]
+                },
+                {
+                  "id": "pe_010",
+                  "name": "名词单复数",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pe_011",
+                  "name": "There be 句型",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pe_008"
+                  ]
+                },
+                {
+                  "id": "pe_012",
+                  "name": "现在进行时",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pe_008"
+                  ]
+                },
+                {
+                  "id": "pe_013",
+                  "name": "一般现在时（第三人称单数）",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pe_008"
+                  ]
+                },
+                {
+                  "id": "pe_014",
+                  "name": "一般过去时（规则变化）",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pe_008"
+                  ]
+                },
+                {
+                  "id": "pe_015",
+                  "name": "一般将来时(will/be going to)",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pe_008"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "日常交际",
+          "units": [
+            {
+              "name": "情景对话",
+              "points": [
+                {
+                  "id": "pe_016",
+                  "name": "问候/介绍/告别",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pe_017",
+                  "name": "问路/购物/点餐",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pe_016"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "短篇阅读",
+              "points": [
+                {
+                  "id": "pe_018",
+                  "name": "读懂简单故事/短文",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pe_019",
+                  "name": "短对话理解",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pe_018"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "初中（7-9年级）",
+      "grade_range": "7-9",
+      "modules": [
+        {
+          "name": "词汇",
+          "units": [
+            {
+              "name": "课标词汇",
+              "points": [
+                {
+                  "id": "en_001",
+                  "name": "七年级核心词汇(约500词)",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pe_004",
+                    "pe_005",
+                    "pe_006",
+                    "pe_007"
+                  ]
+                },
+                {
+                  "id": "en_002",
+                  "name": "八年级核心词汇(约500词)",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "en_001"
+                  ]
+                },
+                {
+                  "id": "en_003",
+                  "name": "九年级核心词汇(约500词)",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_002"
+                  ]
+                },
+                {
+                  "id": "en_004",
+                  "name": "词性转换",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "en_003"
+                  ]
+                },
+                {
+                  "id": "en_005",
+                  "name": "固定搭配与短语",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "en_003"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "语法",
+          "units": [
+            {
+              "name": "词法",
+              "points": [
+                {
+                  "id": "en_006",
+                  "name": "名词(单复数/所有格)",
+                  "difficulty": 1,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pe_010"
+                  ]
+                },
+                {
+                  "id": "en_007",
+                  "name": "代词(人称/物主/反身/不定代词)",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": []
+                },
+                {
+                  "id": "en_008",
+                  "name": "冠词(a/an/the)",
+                  "difficulty": 1,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "en_009",
+                  "name": "数词(基数词/序数词)",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "en_010",
+                  "name": "形容词与副词(比较级/最高级)",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": []
+                },
+                {
+                  "id": "en_011",
+                  "name": "介词(时间/地点/方式)",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "en_012",
+                  "name": "连词(并列/从属)",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "en_013",
+                  "name": "动词时态(8种基本时态)",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pe_012",
+                    "pe_013",
+                    "pe_014",
+                    "pe_015",
+                    "en_012"
+                  ]
+                },
+                {
+                  "id": "en_014",
+                  "name": "被动语态",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "en_013"
+                  ]
+                },
+                {
+                  "id": "en_015",
+                  "name": "非谓语动词",
+                  "difficulty": 5,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_013"
+                  ]
+                },
+                {
+                  "id": "en_016",
+                  "name": "情态动词",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": []
+                }
+              ]
+            },
+            {
+              "name": "句法",
+              "points": [
+                {
+                  "id": "en_017",
+                  "name": "简单句五大句型",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pe_008"
+                  ]
+                },
+                {
+                  "id": "en_018",
+                  "name": "并列句",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "en_017"
+                  ]
+                },
+                {
+                  "id": "en_019",
+                  "name": "宾语从句",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_017"
+                  ]
+                },
+                {
+                  "id": "en_020",
+                  "name": "状语从句",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_018"
+                  ]
+                },
+                {
+                  "id": "en_021",
+                  "name": "定语从句",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_018"
+                  ]
+                },
+                {
+                  "id": "en_022",
+                  "name": "感叹句/祈使句/疑问句",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "en_017"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "完形填空",
+          "units": [
+            {
+              "name": "完形填空",
+              "points": [
+                {
+                  "id": "en_023",
+                  "name": "上下文逻辑推断",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_004",
+                    "en_013"
+                  ]
+                },
+                {
+                  "id": "en_024",
+                  "name": "词汇辨析与搭配",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_005"
+                  ]
+                },
+                {
+                  "id": "en_025",
+                  "name": "语法结构判断",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "en_013"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "阅读理解",
+          "units": [
+            {
+              "name": "阅读理解",
+              "points": [
+                {
+                  "id": "en_026",
+                  "name": "细节理解题",
+                  "difficulty": 2,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pe_018"
+                  ]
+                },
+                {
+                  "id": "en_027",
+                  "name": "推理判断题",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_026"
+                  ]
+                },
+                {
+                  "id": "en_028",
+                  "name": "主旨大意题",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_026"
+                  ]
+                },
+                {
+                  "id": "en_029",
+                  "name": "词义猜测题",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "en_003"
+                  ]
+                },
+                {
+                  "id": "en_030",
+                  "name": "任务型阅读",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_027"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "写作",
+          "units": [
+            {
+              "name": "书面表达",
+              "points": [
+                {
+                  "id": "en_031",
+                  "name": "应用文写作(书信/邮件/通知)",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": []
+                },
+                {
+                  "id": "en_032",
+                  "name": "记叙文写作(人物/事件)",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "en_031"
+                  ]
+                },
+                {
+                  "id": "en_033",
+                  "name": "议论文写作(观点表达)",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "en_032"
+                  ]
+                },
+                {
+                  "id": "en_034",
+                  "name": "图表作文",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "version": "1.0.0",
+  "description": "中考全科知识图谱 - 参照学而思/小猿/科大讯飞学习机体系",
+  "subjects": {
+    "chinese": {
+      "name": "语文",
+      "file": "subjects/chinese.json",
+      "total_points": 92,
+      "grades": [
+        "1-3",
+        "4-6",
+        "7-9"
+      ]
+    },
+    "math": {
+      "name": "数学",
+      "file": "subjects/math.json",
+      "total_points": 123,
+      "grades": [
+        "1-3",
+        "4-6",
+        "7-9"
+      ]
+    },
+    "english": {
+      "name": "英语",
+      "file": "subjects/english.json",
+      "total_points": 53,
+      "grades": [
+        "3-6",
+        "7-9"
+      ]
+    },
+    "physics": {
+      "name": "物理",
+      "file": "subjects/physics.json",
+      "total_points": 52,
+      "grades": [
+        "8-9"
+      ]
+    },
+    "chemistry": {
+      "name": "化学",
+      "file": "subjects/chemistry.json",
+      "total_points": 40,
+      "grades": [
+        "9"
+      ]
+    }
+  },
+  "status_labels": {
+    "unknown": {
+      "label": "未检测",
+      "color": "#e0e0e0",
+      "icon": "○"
+    },
+    "weak": {
+      "label": "薄弱",
+      "color": "#ff6b6b",
+      "icon": "✗"
+    },
+    "learning": {
+      "label": "掌握中",
+      "color": "#ffd93d",
+      "icon": "△"
+    },
+    "mastered": {
+      "label": "已掌握",
+      "color": "#6bcb77",
+      "icon": "✓"
+    }
+  }
+}

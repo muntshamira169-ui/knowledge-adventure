@@ -1,0 +1,1379 @@
+{
+  "subject": "math",
+  "name": "数学",
+  "stages": [
+    {
+      "name": "小学低段（1-3年级）",
+      "grade_range": "1-3",
+      "modules": [
+        {
+          "name": "数的认识",
+          "units": [
+            {
+              "name": "1-20的认识",
+              "points": [
+                {
+                  "id": "pm_001",
+                  "name": "1-10的认识与书写",
+                  "difficulty": 1,
+                  "exam_weight": 1,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pm_002",
+                  "name": "11-20的认识",
+                  "difficulty": 1,
+                  "exam_weight": 1,
+                  "prerequisites": [
+                    "pm_001"
+                  ]
+                },
+                {
+                  "id": "pm_003",
+                  "name": "数位（个位、十位）",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_002"
+                  ]
+                },
+                {
+                  "id": "pm_004",
+                  "name": "100以内数的认识",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_003"
+                  ]
+                },
+                {
+                  "id": "pm_005",
+                  "name": "万以内数的认识",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_004"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "比较与排序",
+              "points": [
+                {
+                  "id": "pm_006",
+                  "name": "比大小（>、<、=）",
+                  "difficulty": 1,
+                  "exam_weight": 1,
+                  "prerequisites": [
+                    "pm_002"
+                  ]
+                },
+                {
+                  "id": "pm_007",
+                  "name": "数的排序与排列",
+                  "difficulty": 1,
+                  "exam_weight": 1,
+                  "prerequisites": [
+                    "pm_006"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "加减法",
+          "units": [
+            {
+              "name": "10以内加减法",
+              "points": [
+                {
+                  "id": "pm_008",
+                  "name": "5以内加减法",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_001"
+                  ]
+                },
+                {
+                  "id": "pm_009",
+                  "name": "10以内加减法",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_008"
+                  ]
+                },
+                {
+                  "id": "pm_010",
+                  "name": "连加连减与加减混合",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_009"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "20以内加减法",
+              "points": [
+                {
+                  "id": "pm_011",
+                  "name": "20以内进位加法（凑十法）",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_009"
+                  ]
+                },
+                {
+                  "id": "pm_012",
+                  "name": "20以内退位减法（破十法）",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_009"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "100以内加减法",
+              "points": [
+                {
+                  "id": "pm_013",
+                  "name": "整十数加减法",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_004"
+                  ]
+                },
+                {
+                  "id": "pm_014",
+                  "name": "两位数加减一位数（不进位/不退位）",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_013"
+                  ]
+                },
+                {
+                  "id": "pm_015",
+                  "name": "两位数加减法笔算（进位/退位）",
+                  "difficulty": 3,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "乘除法入门",
+          "units": [
+            {
+              "name": "乘法",
+              "points": [
+                {
+                  "id": "pm_016",
+                  "name": "乘法的意义",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_009"
+                  ]
+                },
+                {
+                  "id": "pm_017",
+                  "name": "乘法口诀（表内乘法）",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_016"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "除法",
+              "points": [
+                {
+                  "id": "pm_018",
+                  "name": "除法的意义（平均分）",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_017"
+                  ]
+                },
+                {
+                  "id": "pm_019",
+                  "name": "表内除法（用口诀求商）",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_018"
+                  ]
+                },
+                {
+                  "id": "pm_020",
+                  "name": "有余数的除法",
+                  "difficulty": 3,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_019"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "图形与测量",
+          "units": [
+            {
+              "name": "认识图形",
+              "points": [
+                {
+                  "id": "pm_021",
+                  "name": "认识平面图形（长方形/正方形/三角形/圆）",
+                  "difficulty": 1,
+                  "exam_weight": 1,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pm_022",
+                  "name": "认识立体图形（长方体/正方体/圆柱/球）",
+                  "difficulty": 2,
+                  "exam_weight": 1,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pm_023",
+                  "name": "角的初步认识",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_021"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "长度单位",
+              "points": [
+                {
+                  "id": "pm_024",
+                  "name": "厘米与米的认知",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pm_025",
+                  "name": "用尺子测量与画线段",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_024"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "时间与货币",
+              "points": [
+                {
+                  "id": "pm_026",
+                  "name": "认识钟表（整时/半时）",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "pm_027",
+                  "name": "认识时间（分/几时几分）",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_026"
+                  ]
+                },
+                {
+                  "id": "pm_028",
+                  "name": "认识人民币（元、角、分）",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "小学高段（4-6年级）",
+      "grade_range": "4-6",
+      "modules": [
+        {
+          "name": "数的扩展与运算",
+          "units": [
+            {
+              "name": "大数与小数",
+              "points": [
+                {
+                  "id": "pm_029",
+                  "name": "大数的认识（亿以内/亿以上）",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_005"
+                  ]
+                },
+                {
+                  "id": "pm_030",
+                  "name": "小数的意义与性质",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_005"
+                  ]
+                },
+                {
+                  "id": "pm_031",
+                  "name": "小数加减法",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_030",
+                    "pm_015"
+                  ]
+                },
+                {
+                  "id": "pm_032",
+                  "name": "小数乘法",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_031",
+                    "pm_017"
+                  ]
+                },
+                {
+                  "id": "pm_033",
+                  "name": "小数除法",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_032",
+                    "pm_019"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "分数",
+              "points": [
+                {
+                  "id": "pm_034",
+                  "name": "分数的初步认识",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_019"
+                  ]
+                },
+                {
+                  "id": "pm_035",
+                  "name": "分数的意义与性质（真分数/假分数/约分/通分）",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_034"
+                  ]
+                },
+                {
+                  "id": "pm_036",
+                  "name": "分数加减法",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_035"
+                  ]
+                },
+                {
+                  "id": "pm_037",
+                  "name": "分数乘法",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_035",
+                    "pm_032"
+                  ]
+                },
+                {
+                  "id": "pm_038",
+                  "name": "分数除法",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_037",
+                    "pm_033"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "运算定律",
+              "points": [
+                {
+                  "id": "pm_039",
+                  "name": "四则运算顺序与运算定律",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_017",
+                    "pm_019"
+                  ]
+                },
+                {
+                  "id": "pm_040",
+                  "name": "简便运算",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_039"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "百分数与比例",
+              "points": [
+                {
+                  "id": "pm_041",
+                  "name": "百分数的认识",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_035"
+                  ]
+                },
+                {
+                  "id": "pm_042",
+                  "name": "百分数应用题（折扣/利率/税率）",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_041"
+                  ]
+                },
+                {
+                  "id": "pm_043",
+                  "name": "比与比例",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_035"
+                  ]
+                },
+                {
+                  "id": "pm_044",
+                  "name": "正比例与反比例",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_043"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "图形与几何",
+          "units": [
+            {
+              "name": "平面图形",
+              "points": [
+                {
+                  "id": "pm_045",
+                  "name": "长方形与正方形的周长与面积",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_021",
+                    "pm_017"
+                  ]
+                },
+                {
+                  "id": "pm_046",
+                  "name": "平行四边形与梯形的面积",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_045"
+                  ]
+                },
+                {
+                  "id": "pm_047",
+                  "name": "三角形的面积",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_045"
+                  ]
+                },
+                {
+                  "id": "pm_048",
+                  "name": "圆的周长与面积",
+                  "difficulty": 5,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_047",
+                    "pm_033"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "立体图形",
+              "points": [
+                {
+                  "id": "pm_049",
+                  "name": "长方体与正方体的表面积与体积",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_045",
+                    "pm_017"
+                  ]
+                },
+                {
+                  "id": "pm_050",
+                  "name": "圆柱与圆锥的体积",
+                  "difficulty": 5,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_049",
+                    "pm_048"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "图形变换",
+              "points": [
+                {
+                  "id": "pm_051",
+                  "name": "平移、旋转与轴对称",
+                  "difficulty": 3,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_021"
+                  ]
+                },
+                {
+                  "id": "pm_052",
+                  "name": "图形的放大与缩小",
+                  "difficulty": 4,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_043"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "角度与位置",
+              "points": [
+                {
+                  "id": "pm_053",
+                  "name": "角的度量与分类",
+                  "difficulty": 3,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_023"
+                  ]
+                },
+                {
+                  "id": "pm_054",
+                  "name": "用数对确定位置",
+                  "difficulty": 3,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "统计与应用题",
+          "units": [
+            {
+              "name": "统计",
+              "points": [
+                {
+                  "id": "pm_055",
+                  "name": "条形统计图与折线统计图",
+                  "difficulty": 3,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_031"
+                  ]
+                },
+                {
+                  "id": "pm_056",
+                  "name": "扇形统计图",
+                  "difficulty": 4,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_041"
+                  ]
+                },
+                {
+                  "id": "pm_057",
+                  "name": "平均数",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_031"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "典型应用题",
+              "points": [
+                {
+                  "id": "pm_058",
+                  "name": "和差问题/和倍问题/差倍问题",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_015"
+                  ]
+                },
+                {
+                  "id": "pm_059",
+                  "name": "行程问题（相遇/追及）",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_033"
+                  ]
+                },
+                {
+                  "id": "pm_060",
+                  "name": "工程问题",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "pm_038"
+                  ]
+                },
+                {
+                  "id": "pm_061",
+                  "name": "鸡兔同笼/植树问题/盈亏问题",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "pm_015"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "初中（7-9年级）",
+      "grade_range": "7-9",
+      "modules": [
+        {
+          "name": "数与代数",
+          "units": [
+            {
+              "name": "实数与运算",
+              "points": [
+                {
+                  "id": "math_001",
+                  "name": "有理数及其运算",
+                  "difficulty": 1,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_005"
+                  ]
+                },
+                {
+                  "id": "math_002",
+                  "name": "实数与数轴",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "math_001"
+                  ]
+                },
+                {
+                  "id": "math_003",
+                  "name": "科学记数法",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_029"
+                  ]
+                },
+                {
+                  "id": "math_004",
+                  "name": "平方根与立方根",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "math_005",
+                  "name": "二次根式及其运算",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_004"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "整式与因式分解",
+              "points": [
+                {
+                  "id": "math_007",
+                  "name": "整式加减",
+                  "difficulty": 1,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_040"
+                  ]
+                },
+                {
+                  "id": "math_008",
+                  "name": "幂的运算",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "math_007"
+                  ]
+                },
+                {
+                  "id": "math_009",
+                  "name": "整式乘法与乘法公式",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_008"
+                  ]
+                },
+                {
+                  "id": "math_010",
+                  "name": "因式分解",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_009"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "分式",
+              "points": [
+                {
+                  "id": "math_011",
+                  "name": "分式概念与性质",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "math_009",
+                    "pm_035"
+                  ]
+                },
+                {
+                  "id": "math_012",
+                  "name": "分式运算",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_011"
+                  ]
+                },
+                {
+                  "id": "math_013",
+                  "name": "分式方程及应用",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_012"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "方程与不等式",
+              "points": [
+                {
+                  "id": "math_014",
+                  "name": "一元一次方程",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_007"
+                  ]
+                },
+                {
+                  "id": "math_015",
+                  "name": "二元一次方程组",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_014"
+                  ]
+                },
+                {
+                  "id": "math_016",
+                  "name": "一元一次不等式(组)",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_014"
+                  ]
+                },
+                {
+                  "id": "math_017",
+                  "name": "一元二次方程",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_010",
+                    "math_005"
+                  ]
+                },
+                {
+                  "id": "math_019",
+                  "name": "方程与不等式应用题",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_015",
+                    "math_016",
+                    "math_017"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "函数",
+          "units": [
+            {
+              "name": "函数基础",
+              "points": [
+                {
+                  "id": "math_020",
+                  "name": "平面直角坐标系",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_054"
+                  ]
+                },
+                {
+                  "id": "math_021",
+                  "name": "函数概念与表示",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_020"
+                  ]
+                },
+                {
+                  "id": "math_022",
+                  "name": "函数图像与性质",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_021"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "一次函数",
+              "points": [
+                {
+                  "id": "math_023",
+                  "name": "正比例函数",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_021"
+                  ]
+                },
+                {
+                  "id": "math_024",
+                  "name": "一次函数表达式与图像",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_023"
+                  ]
+                },
+                {
+                  "id": "math_025",
+                  "name": "一次函数与方程不等式",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_024",
+                    "math_016"
+                  ]
+                },
+                {
+                  "id": "math_026",
+                  "name": "一次函数应用题",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_025"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "反比例函数",
+              "points": [
+                {
+                  "id": "math_027",
+                  "name": "反比例函数概念与图像",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_021",
+                    "pm_044"
+                  ]
+                },
+                {
+                  "id": "math_028",
+                  "name": "反比例函数与实际问题",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_027"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "二次函数",
+              "points": [
+                {
+                  "id": "math_029",
+                  "name": "二次函数概念",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_021",
+                    "math_017"
+                  ]
+                },
+                {
+                  "id": "math_030",
+                  "name": "二次函数图像与性质",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_029"
+                  ]
+                },
+                {
+                  "id": "math_031",
+                  "name": "二次函数与方程不等式",
+                  "difficulty": 5,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_030",
+                    "math_017"
+                  ]
+                },
+                {
+                  "id": "math_032",
+                  "name": "二次函数综合应用",
+                  "difficulty": 5,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_031"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "图形与几何",
+          "units": [
+            {
+              "name": "线与角",
+              "points": [
+                {
+                  "id": "math_033",
+                  "name": "线段、射线、直线",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "pm_021"
+                  ]
+                },
+                {
+                  "id": "math_034",
+                  "name": "角的概念与度量",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "math_033",
+                    "pm_053"
+                  ]
+                },
+                {
+                  "id": "math_035",
+                  "name": "相交线与平行线",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_034"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "三角形",
+              "points": [
+                {
+                  "id": "math_036",
+                  "name": "三角形基本概念",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "math_035"
+                  ]
+                },
+                {
+                  "id": "math_037",
+                  "name": "全等三角形判定",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_036"
+                  ]
+                },
+                {
+                  "id": "math_038",
+                  "name": "等腰三角形与等边三角形",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_037"
+                  ]
+                },
+                {
+                  "id": "math_039",
+                  "name": "直角三角形与勾股定理",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_036"
+                  ]
+                },
+                {
+                  "id": "math_040",
+                  "name": "相似三角形",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_037",
+                    "pm_044"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "四边形",
+              "points": [
+                {
+                  "id": "math_041",
+                  "name": "平行四边形",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_035",
+                    "pm_046"
+                  ]
+                },
+                {
+                  "id": "math_042",
+                  "name": "矩形",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_041"
+                  ]
+                },
+                {
+                  "id": "math_043",
+                  "name": "菱形",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_041"
+                  ]
+                },
+                {
+                  "id": "math_044",
+                  "name": "正方形",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_042",
+                    "math_043"
+                  ]
+                },
+                {
+                  "id": "math_045",
+                  "name": "梯形",
+                  "difficulty": 3,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "math_041",
+                    "pm_046"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "圆",
+              "points": [
+                {
+                  "id": "math_046",
+                  "name": "圆的基本性质",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_036",
+                    "pm_048"
+                  ]
+                },
+                {
+                  "id": "math_047",
+                  "name": "圆周角与圆心角",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_046"
+                  ]
+                },
+                {
+                  "id": "math_048",
+                  "name": "直线与圆的位置关系",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_046"
+                  ]
+                },
+                {
+                  "id": "math_050",
+                  "name": "圆的切线",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_048"
+                  ]
+                },
+                {
+                  "id": "math_051",
+                  "name": "弧长与扇形面积",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_046",
+                    "pm_048"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "图形变换",
+              "points": [
+                {
+                  "id": "math_052",
+                  "name": "平移",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "math_020",
+                    "pm_051"
+                  ]
+                },
+                {
+                  "id": "math_053",
+                  "name": "轴对称",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "math_020",
+                    "pm_051"
+                  ]
+                },
+                {
+                  "id": "math_054",
+                  "name": "旋转",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_020",
+                    "pm_051"
+                  ]
+                },
+                {
+                  "id": "math_055",
+                  "name": "位似",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_040",
+                    "pm_052"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "解直角三角形",
+              "points": [
+                {
+                  "id": "math_056",
+                  "name": "锐角三角函数",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_039"
+                  ]
+                },
+                {
+                  "id": "math_057",
+                  "name": "解直角三角形",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_056"
+                  ]
+                },
+                {
+                  "id": "math_058",
+                  "name": "解直角三角形应用",
+                  "difficulty": 5,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "math_057"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "统计与概率",
+          "units": [
+            {
+              "name": "统计",
+              "points": [
+                {
+                  "id": "math_059",
+                  "name": "数据的收集与整理",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "pm_057"
+                  ]
+                },
+                {
+                  "id": "math_060",
+                  "name": "统计图表",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_059",
+                    "pm_055"
+                  ]
+                },
+                {
+                  "id": "math_061",
+                  "name": "平均数、中位数、众数",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_059",
+                    "pm_057"
+                  ]
+                },
+                {
+                  "id": "math_062",
+                  "name": "方差与标准差",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_061"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "概率",
+              "points": [
+                {
+                  "id": "math_063",
+                  "name": "随机事件与概率",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "math_064",
+                  "name": "用列举法求概率",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_063"
+                  ]
+                },
+                {
+                  "id": "math_065",
+                  "name": "用频率估计概率",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "math_063"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

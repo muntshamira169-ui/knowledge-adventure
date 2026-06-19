@@ -1,0 +1,549 @@
+{
+  "subject": "physics",
+  "name": "物理",
+  "stages": [
+    {
+      "name": "初中（8-9年级）",
+      "grade_range": "8-9",
+      "modules": [
+        {
+          "name": "力学",
+          "units": [
+            {
+              "name": "运动与力",
+              "points": [
+                {
+                  "id": "ph_001",
+                  "name": "长度与时间测量",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ph_002",
+                  "name": "运动的描述(参照物/速度)",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ph_001"
+                  ]
+                },
+                {
+                  "id": "ph_003",
+                  "name": "牛顿第一定律与惯性",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_002"
+                  ]
+                },
+                {
+                  "id": "ph_004",
+                  "name": "二力平衡",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_003"
+                  ]
+                },
+                {
+                  "id": "ph_005",
+                  "name": "摩擦力",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_004"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "压强与浮力",
+              "points": [
+                {
+                  "id": "ph_006",
+                  "name": "压力与压强",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_004"
+                  ]
+                },
+                {
+                  "id": "ph_007",
+                  "name": "液体压强",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_006"
+                  ]
+                },
+                {
+                  "id": "ph_008",
+                  "name": "大气压强",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_006"
+                  ]
+                },
+                {
+                  "id": "ph_009",
+                  "name": "流体压强与流速",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_008"
+                  ]
+                },
+                {
+                  "id": "ph_010",
+                  "name": "浮力与阿基米德原理",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_007"
+                  ]
+                },
+                {
+                  "id": "ph_011",
+                  "name": "物体的浮沉条件",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_010"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "简单机械与功",
+              "points": [
+                {
+                  "id": "ph_012",
+                  "name": "杠杆及其平衡",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_004"
+                  ]
+                },
+                {
+                  "id": "ph_013",
+                  "name": "滑轮与滑轮组",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_012"
+                  ]
+                },
+                {
+                  "id": "ph_014",
+                  "name": "功与功率",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_004"
+                  ]
+                },
+                {
+                  "id": "ph_015",
+                  "name": "机械效率",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_014"
+                  ]
+                },
+                {
+                  "id": "ph_016",
+                  "name": "机械能及其转化",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_014"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "电学",
+          "units": [
+            {
+              "name": "电路基础",
+              "points": [
+                {
+                  "id": "ph_017",
+                  "name": "电荷与电流",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ph_018",
+                  "name": "电路与电路图",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_017"
+                  ]
+                },
+                {
+                  "id": "ph_019",
+                  "name": "串联与并联",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_018"
+                  ]
+                },
+                {
+                  "id": "ph_020",
+                  "name": "电流的测量",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ph_018"
+                  ]
+                },
+                {
+                  "id": "ph_021",
+                  "name": "电压的测量",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ph_018"
+                  ]
+                },
+                {
+                  "id": "ph_022",
+                  "name": "电阻与变阻器",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_018"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "欧姆定律与电功率",
+              "points": [
+                {
+                  "id": "ph_023",
+                  "name": "欧姆定律",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_020",
+                    "ph_021",
+                    "ph_022"
+                  ]
+                },
+                {
+                  "id": "ph_024",
+                  "name": "电阻的测量(伏安法)",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_023"
+                  ]
+                },
+                {
+                  "id": "ph_025",
+                  "name": "电功与电功率",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_023"
+                  ]
+                },
+                {
+                  "id": "ph_026",
+                  "name": "焦耳定律",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_025"
+                  ]
+                },
+                {
+                  "id": "ph_027",
+                  "name": "家庭电路与安全用电",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_018"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "电磁学",
+              "points": [
+                {
+                  "id": "ph_028",
+                  "name": "磁现象与磁场",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ph_029",
+                  "name": "电生磁(奥斯特实验)",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_028",
+                    "ph_018"
+                  ]
+                },
+                {
+                  "id": "ph_030",
+                  "name": "电磁铁与电磁继电器",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_029"
+                  ]
+                },
+                {
+                  "id": "ph_031",
+                  "name": "电动机原理",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_029"
+                  ]
+                },
+                {
+                  "id": "ph_032",
+                  "name": "磁生电(电磁感应)",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_028"
+                  ]
+                },
+                {
+                  "id": "ph_033",
+                  "name": "发电机原理",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_032"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "光学",
+          "units": [
+            {
+              "name": "光的传播与反射",
+              "points": [
+                {
+                  "id": "ph_034",
+                  "name": "光的直线传播",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ph_035",
+                  "name": "光的反射定律",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_034"
+                  ]
+                },
+                {
+                  "id": "ph_036",
+                  "name": "平面镜成像",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_035"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "光的折射与透镜",
+              "points": [
+                {
+                  "id": "ph_037",
+                  "name": "光的折射",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_034"
+                  ]
+                },
+                {
+                  "id": "ph_038",
+                  "name": "凸透镜成像规律",
+                  "difficulty": 5,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_037"
+                  ]
+                },
+                {
+                  "id": "ph_039",
+                  "name": "眼睛与眼镜",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_038"
+                  ]
+                },
+                {
+                  "id": "ph_040",
+                  "name": "显微镜与望远镜",
+                  "difficulty": 2,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "ph_038"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "热学",
+          "units": [
+            {
+              "name": "热现象",
+              "points": [
+                {
+                  "id": "ph_041",
+                  "name": "温度与温度计",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ph_042",
+                  "name": "物态变化(熔化/凝固)",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ph_041"
+                  ]
+                },
+                {
+                  "id": "ph_043",
+                  "name": "汽化与液化",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ph_041"
+                  ]
+                },
+                {
+                  "id": "ph_044",
+                  "name": "升华与凝华",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ph_042"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "内能与热机",
+              "points": [
+                {
+                  "id": "ph_045",
+                  "name": "分子动理论",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ph_046",
+                  "name": "内能",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ph_045"
+                  ]
+                },
+                {
+                  "id": "ph_047",
+                  "name": "比热容",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_046"
+                  ]
+                },
+                {
+                  "id": "ph_048",
+                  "name": "热值",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ph_046"
+                  ]
+                },
+                {
+                  "id": "ph_049",
+                  "name": "热机与效率",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ph_048"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "声学",
+          "units": [
+            {
+              "name": "声现象",
+              "points": [
+                {
+                  "id": "ph_050",
+                  "name": "声音的产生与传播",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ph_051",
+                  "name": "声音的特性(音调/响度/音色)",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ph_050"
+                  ]
+                },
+                {
+                  "id": "ph_052",
+                  "name": "噪声的控制与利用",
+                  "difficulty": 1,
+                  "exam_weight": 2,
+                  "prerequisites": [
+                    "ph_050"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

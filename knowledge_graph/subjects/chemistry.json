@@ -1,0 +1,422 @@
+{
+  "subject": "chemistry",
+  "name": "化学",
+  "stages": [
+    {
+      "name": "初中（9年级）",
+      "grade_range": "9",
+      "modules": [
+        {
+          "name": "物质构成",
+          "units": [
+            {
+              "name": "物质的组成",
+              "points": [
+                {
+                  "id": "ch_001",
+                  "name": "物理变化与化学变化",
+                  "difficulty": 1,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_002",
+                  "name": "物理性质与化学性质",
+                  "difficulty": 1,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ch_001"
+                  ]
+                },
+                {
+                  "id": "ch_003",
+                  "name": "元素与元素符号",
+                  "difficulty": 1,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_004",
+                  "name": "原子结构(质子/中子/电子)",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_003"
+                  ]
+                },
+                {
+                  "id": "ch_005",
+                  "name": "元素周期表初步",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_004"
+                  ]
+                },
+                {
+                  "id": "ch_006",
+                  "name": "离子与原子团",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ch_004"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "化学式与化合价",
+              "points": [
+                {
+                  "id": "ch_007",
+                  "name": "化学式的书写",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_003"
+                  ]
+                },
+                {
+                  "id": "ch_008",
+                  "name": "化合价",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_007"
+                  ]
+                },
+                {
+                  "id": "ch_009",
+                  "name": "有关化学式的计算",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_008"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "化学变化",
+          "units": [
+            {
+              "name": "化学反应",
+              "points": [
+                {
+                  "id": "ch_010",
+                  "name": "质量守恒定律",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_011",
+                  "name": "化学方程式的书写",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_010",
+                    "ch_007"
+                  ]
+                },
+                {
+                  "id": "ch_012",
+                  "name": "有关化学方程式的计算",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_011"
+                  ]
+                },
+                {
+                  "id": "ch_013",
+                  "name": "化合反应与分解反应",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ch_011"
+                  ]
+                },
+                {
+                  "id": "ch_014",
+                  "name": "置换反应",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_011"
+                  ]
+                },
+                {
+                  "id": "ch_015",
+                  "name": "复分解反应",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_011"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "常见物质",
+              "points": [
+                {
+                  "id": "ch_016",
+                  "name": "氧气的性质与制取",
+                  "difficulty": 2,
+                  "exam_weight": 4,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_017",
+                  "name": "二氧化碳的性质与制取",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_016"
+                  ]
+                },
+                {
+                  "id": "ch_018",
+                  "name": "氢气",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ch_014"
+                  ]
+                },
+                {
+                  "id": "ch_019",
+                  "name": "碳及其化合物",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_017"
+                  ]
+                },
+                {
+                  "id": "ch_020",
+                  "name": "金属的性质",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_014"
+                  ]
+                },
+                {
+                  "id": "ch_021",
+                  "name": "金属活动性顺序",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_020"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "溶液",
+          "units": [
+            {
+              "name": "溶液基础",
+              "points": [
+                {
+                  "id": "ch_022",
+                  "name": "溶液的概念与组成",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_023",
+                  "name": "溶解与乳化",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ch_022"
+                  ]
+                },
+                {
+                  "id": "ch_024",
+                  "name": "饱和溶液与不饱和溶液",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": [
+                    "ch_022"
+                  ]
+                },
+                {
+                  "id": "ch_025",
+                  "name": "溶解度与溶解度曲线",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_024"
+                  ]
+                },
+                {
+                  "id": "ch_026",
+                  "name": "溶质质量分数",
+                  "difficulty": 3,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_022"
+                  ]
+                },
+                {
+                  "id": "ch_027",
+                  "name": "溶液的配制",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_026"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "酸碱盐",
+          "units": [
+            {
+              "name": "酸和碱",
+              "points": [
+                {
+                  "id": "ch_028",
+                  "name": "常见的酸(盐酸/硫酸)",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_015"
+                  ]
+                },
+                {
+                  "id": "ch_029",
+                  "name": "常见的碱(氢氧化钠/氢氧化钙)",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_015"
+                  ]
+                },
+                {
+                  "id": "ch_030",
+                  "name": "酸碱指示剂与pH",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_031",
+                  "name": "中和反应",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_028",
+                    "ch_029"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "盐与化肥",
+              "points": [
+                {
+                  "id": "ch_032",
+                  "name": "常见的盐(氯化钠/碳酸钠/碳酸钙)",
+                  "difficulty": 3,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_031"
+                  ]
+                },
+                {
+                  "id": "ch_033",
+                  "name": "复分解反应条件",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_032",
+                    "ch_015"
+                  ]
+                },
+                {
+                  "id": "ch_034",
+                  "name": "粗盐提纯",
+                  "difficulty": 4,
+                  "exam_weight": 4,
+                  "prerequisites": [
+                    "ch_032"
+                  ]
+                },
+                {
+                  "id": "ch_035",
+                  "name": "化学肥料",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "化学与生活",
+          "units": [
+            {
+              "name": "化学与生活",
+              "points": [
+                {
+                  "id": "ch_036",
+                  "name": "有机合成材料",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_037",
+                  "name": "化学与人体健康",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_038",
+                  "name": "化学与环境",
+                  "difficulty": 2,
+                  "exam_weight": 3,
+                  "prerequisites": []
+                },
+                {
+                  "id": "ch_039",
+                  "name": "物质的检验与鉴别",
+                  "difficulty": 4,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_030",
+                    "ch_033"
+                  ]
+                },
+                {
+                  "id": "ch_040",
+                  "name": "物质的分离与除杂",
+                  "difficulty": 5,
+                  "exam_weight": 5,
+                  "prerequisites": [
+                    "ch_034",
+                    "ch_033"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
