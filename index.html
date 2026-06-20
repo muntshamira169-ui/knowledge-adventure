@@ -52,6 +52,11 @@ h1{font-size:2rem;text-align:center;margin-bottom:8px;background:linear-gradient
 .unit-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px}
 .unit-card{background:rgba(15,15,35,0.8);border:1px solid var(--border);border-radius:10px;padding:14px;cursor:pointer;transition:all .2s}
 .unit-card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 4px 15px rgba(99,102,241,0.2)}
+.unit-card.done{background:rgba(16,185,129,0.08);border-color:rgba(16,185,129,0.3)}
+.unit-card.done .unit-boss{color:var(--green)}
+.unit-card.partial{background:rgba(245,158,11,0.08);border-color:rgba(245,158,11,0.25)}
+.unit-card.challenged{background:rgba(99,102,241,0.06);border-color:rgba(99,102,241,0.2)}
+.unit-acc{font-size:0.72rem;color:var(--gold);margin-top:4px}
 .unit-card.partial{border-color:rgba(245,158,11,0.5);background:rgba(245,158,11,0.05)}.unit-card.done{border-color:rgba(16,185,129,0.4);background:rgba(16,185,129,0.05)}
 .unit-card.noq{opacity:0.5;cursor:default}
 .unit-card.noq:hover{transform:none;box-shadow:none;border-color:var(--border)}
@@ -341,14 +346,23 @@ function renderMap(){
           const done = mastered===pts.length && pts.length>0;
           totalUnits++;
           const escapedName = unit.name.replace(/'/g,"\\'").replace(/"/g,'&quot;');
-          const notMastered = pts.filter(p=>p.status==='mastered').length;
-  const allDone = notMastered === pts.length && pts.length > 0;
-  const someDone = notMastered > 0 && !allDone;
-  html += '<div class="unit-card'+(allDone?' done':'')+(!hasQ?' noq':'')+(someDone?' partial':'')+'" '+
+          const mastered = pts.filter(p=>p.status==='mastered').length;
+  const challenged = pts.filter(p=>p.challenged||p.status==='mastered'||p.status==='attempted').length;
+  const allDone = mastered === pts.length && pts.length > 0;
+  const someDone = mastered > 0 && !allDone;
+  const someChallenged = challenged > 0 && !allDone;
+  // 计算单元最佳正确率
+  let unitAcc = 0, accCount = 0;
+  pts.forEach(p=>{if(p.best_accuracy!==undefined){unitAcc+=p.best_accuracy;accCount++;}});
+  const avgAcc = accCount>0?Math.round(unitAcc/accCount):0;
+  const statusIcon = allDone?'🌟':someDone?'✅':someChallenged?'📝':'⚔️';
+  const statusText = allDone?'已通关':someDone?'部分掌握':someChallenged?'已挑战':'挑战';
+  const accText = accCount>0?' 🎯'+avgAcc+'%':'';
+  html += '<div class="unit-card'+(allDone?' done':'')+(!hasQ?' noq':'')+(someDone?' partial':'')+(someChallenged&&!allDone?' challenged':'')+'" '+
             (hasQ?'onclick="startBattle(\''+escapedName+'\')" ':'')+
-            'title="'+(hasQ?'点击挑战（已掌握'+notMastered+'/'+pts.length+'）':'暂无题目')+'">'+
-            '<div class="unit-name">📜 '+unit.name+'</div>'+
-            '<div class="unit-meta"><span>⭐ '+notMastered+'/'+pts.length+'</span><span>'+(allDone?'✅ 已通关':hasQ?'⚔️ 挑战':'📝 无题')+'</span></div>'+
+            'title="'+(hasQ?'点击挑战（已掌握'+mastered+'/'+pts.length+accText+'）':'暂无题目')+'">'+
+            '<div class="unit-name">'+statusIcon+' '+unit.name+'</div>'+
+            '<div class="unit-meta"><span>⭐ '+mastered+'/'+pts.length+'</span><span>'+(allDone?'✅ 已通关':hasQ?statusIcon+' '+statusText+accText:'📝 无题')+'</span></div>'+
             (hasQ?'<div class="unit-boss">🐉 '+(unit.boss_name||unit.name+'守护者')+'</div>':'')+
             '</div>';
         }
@@ -415,6 +429,8 @@ function startBattle(unitName){
     ptIdx:0,
     enemyHP:allPts.reduce((s,p)=>s+(p.hp||(p.difficulty||1)*3),0),
     enemyMaxHP:allPts.reduce((s,p)=>s+(p.hp||(p.difficulty||1)*3),0),
+    hpZero:false,
+    bonusGoldGiven:false,
     timer:null,
     timeLeft:0,
     answered:false
@@ -426,10 +442,10 @@ function startBattle(unitName){
 }
 
 function nextQuestion(){
-  // 跳过已掌握的知识点
+  // 跳过已答完的知识点
   while(battle.ptIdx < battle.points.length){
     const pt = battle.points[battle.ptIdx];
-    if(pt.status==='mastered'){battle.ptIdx++;continue;}
+    if(pt._qIdx >= ((pt._battleQs||pt.questions||[]).length)){battle.ptIdx++;continue;}
     if(pt.questions && pt.questions.length>(pt._qIdx||0)) break;
     battle.ptIdx++;
   }
@@ -499,24 +515,41 @@ function doAnswer(answer,btnEl){
   const correct = answer!==null && answer!=='' && String(answer).trim().toLowerCase()===String(q.answer).trim().toLowerCase();
   
   P.total++;
+  pt._attempted = (pt._attempted||0);
+  pt._correct = (pt._correct||0);
   
   if(correct){
     P.streak++;
     if(P.streak>P.maxStreak)P.maxStreak=P.streak;
     P.correct++;
+    pt._correct++;
     const diff = pt.difficulty||1;
     const xpGain = diff*10 + Math.min(P.streak-1,5)*5 + (battle.timeLeft>10?5:0);
     P.xp += xpGain;
     P.gold += diff*3 + Math.min(P.streak-1,5)*2;
-    battle.enemyHP -= (pt.hp||diff*3);
     
-    // 高亮正确答案
+    // 扣血但归零后不继续扣
+    if(battle.enemyHP>0){
+      battle.enemyHP -= (pt.hp||diff*3);
+      if(battle.enemyHP<=0){
+        battle.enemyHP=0;
+        battle.hpZero=true;
+        if(!battle.bonusGoldGiven){
+          P.gold+=30;
+          battle.bonusGoldGiven=true;
+          document.getElementById('enName').textContent='💀 '+((pt.enemy_name||pt.name)+' 已击败！+30🪙');
+          document.getElementById('enName').style.color='var(--gold)';
+          setTimeout(()=>{document.getElementById('enName').style.color='';},2500);
+        }
+      }
+    }
+    
     document.querySelectorAll('.opt-btn').forEach(b=>{
       b.classList.add('disabled');
-      if(b.textContent.trim().startsWith(q.answer)||b.textContent.includes(q.answer))b.classList.add('correct');
+      const txt=b.textContent.trim().replace(/^[A-D]\.\s*/,'');
+      if(txt===q.answer||b.textContent.trim()===q.answer)b.classList.add('correct');
     });
     
-    // 连击效果
     if(P.streak>=3){
       const el = document.getElementById('comboText');
       el.textContent = P.streak>=5?'🔥 '+P.streak+'连击！超神！':'🔥 '+P.streak+'连击！';
@@ -524,20 +557,6 @@ function doAnswer(answer,btnEl){
       setTimeout(()=>el.classList.remove('show'),1500);
     }
     
-    // 检查知识点是否掌握
-    pt._qIdx = (pt._qIdx||0)+1;
-    if(pt._qIdx >= ((pt._battleQs||pt.questions||[]).length)){
-      pt.status = 'mastered';
-      pt.accuracy = 100;
-      // 知识点掌握提示
-      const enEl = document.getElementById('enName');
-      const origName = enEl.textContent;
-      enEl.textContent = '✅ 已掌握: ' + pt.name;
-      enEl.style.color = '#10b981';
-      setTimeout(()=>{ enEl.textContent = origName; enEl.style.color = ''; }, 2000);
-    }
-    
-    // 升级检查
     if(P.xp >= P.xpToNext){
       P.level++;
       P.xp -= P.xpToNext;
@@ -545,56 +564,76 @@ function doAnswer(answer,btnEl){
     }
   } else {
     P.streak = 0;
-    // 减血 = 敌人攻击
-    const dmg = Math.ceil((pt.hp||(pt.difficulty||1)*3)*0.3);
-    // 玩家掉血（用enemyHP来反映剩余未掌握知识）
     document.querySelectorAll('.opt-btn').forEach(b=>b.classList.add('disabled'));
     if(btnEl)btnEl.classList.add('wrong');
-    // 显示正确答案
     document.querySelectorAll('.opt-btn').forEach(b=>{
-      if(b.textContent.trim().startsWith(q.answer)||b.textContent.includes(q.answer))b.classList.add('correct');
+      const txt=b.textContent.trim().replace(/^[A-D]\.\s*/,'');
+      if(txt===q.answer||b.textContent.trim()===q.answer)b.classList.add('correct');
     });
-    pt._qIdx = (pt._qIdx||0)+1;
-    if(pt._qIdx >= ((pt._battleQs||pt.questions||[]).length)){
-      pt._qIdx = 0; // 重置
-      if(pt.questions && pt.questions.length>1) shuffle(pt.questions); // 重新洗牌
-    }
+  }
+  
+  // 无论对错始终推进
+  pt._qIdx = (pt._qIdx||0)+1;
+  pt._attempted = (pt._attempted||0)+1;
+  
+  if(pt._qIdx >= ((pt._battleQs||pt.questions||[]).length)){
+    pt.accuracy = Math.round((pt._correct||0)/(pt._attempted||1)*100);
+    if(pt.accuracy >= 80) pt.status = 'mastered';
+    else if(pt.accuracy > 0) pt.status = 'attempted';
+    const enEl = document.getElementById('enName');
+    const origName = enEl.textContent;
+    enEl.textContent = (pt.accuracy>=80?'✅ 已掌握':'📝 已完成')+': '+pt.name+' ('+pt.accuracy+'%)';
+    enEl.style.color = pt.accuracy>=80?'#10b981':'#f59e0b';
+    setTimeout(()=>{ enEl.textContent = origName; enEl.style.color = ''; }, 2000);
   }
   
   updateBattleDisplay();
   updateHUD();
   
-  // 延迟进入下一题
+  const allDone = battle.points.every(p=>(p._qIdx||0)>=((p._battleQs||p.questions||[]).length));
   setTimeout(()=>{
-    if(battle.enemyHP<=0){
-      endBattle(true);
+    if(allDone){
+      endBattle();
     } else {
+      if((pt._qIdx||0)>=((pt._battleQs||pt.questions||[]).length)) battle.ptIdx++;
       nextQuestion();
     }
   }, correct?800:1500);
 }
 
-function endBattle(won){
+function endBattle(){
   clearInterval(battle.timer);
   
-  const mastered = battle.points.filter(p=>p.status==='mastered').length;
   const total = battle.points.length;
+  let mastered = 0, attempted = 0;
+  let totalCorrect = 0, totalAttempted = 0;
+  battle.points.forEach(p=>{
+    if(p.status==='mastered') mastered++;
+    if(p.status==='mastered'||p.status==='attempted') attempted++;
+    totalCorrect += (p._correct||0);
+    totalAttempted += (p._attempted||0);
+  });
+  const overallPct = totalAttempted>0 ? Math.round(totalCorrect/totalAttempted*100) : 0;
+  const isWin = overallPct >= 60;
   
-  document.getElementById('rIcon').textContent = won?'🎉':'💪';
-  document.getElementById('rTitle').textContent = won?'战斗胜利！':'继续加油！';
-  let detailHTML = '<div style="text-align:left;margin:8px 0;font-size:0.85rem">';
+  document.getElementById('rIcon').textContent = isWin?'🎉':'💪';
+  document.getElementById('rTitle').textContent = isWin?'战斗胜利！':'继续加油！';
+  let detailHTML = '<div style="text-align:left;margin:8px 0;font-size:0.82rem">';
   battle.points.forEach((p,i)=>{
-    const icon = p.status==='mastered'?'✅':'❌';
-    detailHTML += '<div style="padding:4px 0">'+icon+' '+(i+1)+'. '+p.name+'</div>';
+    const acc = p.accuracy || 0;
+    let icon = acc>=80?'✅':acc>0?'🟡':'⚪';
+    if(acc===0 && (p._qIdx||0)>0) icon='❌';
+    detailHTML += '<div style="padding:4px 0;display:flex;justify-content:space-between"><span>'+icon+' '+(i+1)+'. '+p.name+'</span><span style="color:var(--dim)">'+(p._correct||0)+'/'+(p._attempted||0)+' ('+acc+'%)</span></div>';
   });
   detailHTML += '</div>';
-  document.getElementById('rMsg').innerHTML = battle.unitName+'<br>'+mastered+'/'+total+'个知识点已掌握'+detailHTML;
+  document.getElementById('rMsg').innerHTML = battle.unitName+'<br>正确率 '+overallPct+'% | '+mastered+'/'+total+'个知识点已掌握'+detailHTML;
   document.getElementById('rRewards').innerHTML = 
-    '⭐ 经验: +'+(P.xp)+' | 🪙 金币: '+P.gold+' | 🔥 连胜: '+P.maxStreak;
+    '⭐ 经验: +'+(P.xp)+' | 🪙 金币: '+P.gold+' | 🔥 最大连胜: '+P.maxStreak+(battle.hpZero?' | 💀 Boss已击败':'');
+
   
   document.getElementById('s-result').style.display = 'flex';
   
-  // 更新学科进度
+  // 更新学科进度 + 保存历史最佳成绩
   const subj = GDATA.subjects[curSubj];
   if(subj){
     let mast=0,tot=0;
@@ -604,6 +643,9 @@ function endBattle(won){
           for(const pt of (unit.points||[])){
             tot++;
             if(pt.status==='mastered')mast++;
+            // 保存最佳正确率
+            if(!pt.best_accuracy||pt.accuracy>pt.best_accuracy) pt.best_accuracy=pt.accuracy;
+            if(pt.status&&pt.status!=='unknown') pt.challenged=true;
           }
     subj.mastered_points = mast;
     subj.total_points = tot;
@@ -612,11 +654,11 @@ function endBattle(won){
 
 function doContinue(){
   document.getElementById('s-result').style.display = 'none';
-  // 当前单元中还有未掌握的知识点吗？
+  // 当前单元中还有未掌握或未尝试的知识点吗？
   if(battle){
     const nextPts = battle.points.filter(p=>p.status!=='mastered');
     if(nextPts.length > 0){
-      // 继续打同一单元的剩余知识点
+      // 继续打同一单元的未掌握知识点
       startBattle(battle.unitName);
       return;
     }
@@ -644,7 +686,10 @@ function usePower(type){
   } else if(type==='skip'){
     const spt = battle.points[battle.ptIdx];
     spt._qIdx = (spt._qIdx||0)+1;
-    if(spt._qIdx >= (spt.questions||[]).length) spt._qIdx=0;
+    // 跳过当前题，推进到下一题
+    const allDone = battle.points.every(p=>(p._qIdx||0)>=((p._battleQs||p.questions||[]).length));
+    if(allDone){endBattle();return;}
+    if(spt._qIdx >= ((spt._battleQs||spt.questions||[]).length)) battle.ptIdx++;
     nextQuestion();
   } else if(type==='fifty'){
     const pt = battle.points[battle.ptIdx];
