@@ -204,16 +204,6 @@ function setStatus(msg,type){
   el.innerHTML = msg ? '<div class="status-msg '+type+'">'+msg+'</div>' : '';
 }
 
-
-// ===== 工具函数：洗牌 =====
-function shuffle(arr){
-  for(let i=arr.length-1;i>0;i--){
-    const j=Math.floor(Math.random()*(i+1));
-    [arr[i],arr[j]]=[arr[j],arr[i]];
-  }
-  return arr;
-}
-
 async function loadGameData(){
   if(typeof EMBEDDED_QUESTIONS!=="undefined"){GDATA=EMBEDDED_QUESTIONS;setStatus("题库就绪！语文260题+数学490题+英语97题+物理99题+化学77题","success");document.getElementById("startBtn").disabled=false;return;}
   try {
@@ -369,14 +359,8 @@ function startBattle(unitName){
   
   console.log('⚔️ 开始战斗:',unitName,'知识点:',allPts.length,'总题数:',allPts.reduce((s,p)=>s+(p.questions||[]).length,0));
   
-  // 随机洗牌每个知识点的题目顺序，确保每次挑战不重复
-  allPts.forEach(p=>{
-    p._qIdx = 0;
-    if(p.questions && p.questions.length > 1){
-      shuffle(p.questions);
-      console.log('🔀 已洗牌:',p.name,p.questions.length+'题');
-    }
-  });
+  // 重置所有知识点的题目索引
+  allPts.forEach(p=>{p._qIdx=0;});
   
   battle = {
     unitName,
@@ -518,8 +502,7 @@ function doAnswer(answer,btnEl){
     });
     pt._qIdx = (pt._qIdx||0)+1;
     if(pt._qIdx >= (pt.questions||[]).length){
-      pt._qIdx = 0; // 重置
-      if(pt.questions && pt.questions.length>1) shuffle(pt.questions); // 重新洗牌
+      pt._qIdx = 0; // 重置，允许重新挑战
     }
   }
   
