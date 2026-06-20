@@ -514,7 +514,6 @@ function doAnswer(answer,btnEl){
     if(battle.enemyHP<=0){
       endBattle(true);
     } else {
-      battle.ptIdx++;
       nextQuestion();
     }
   }, correct?800:1500);
@@ -573,7 +572,9 @@ function usePower(type){
     const q = pt.questions[pt._qIdx||0];
     alert('💡 提示: 答案是 "'+q.answer+'"');
   } else if(type==='skip'){
-    battle.ptIdx++;
+    const spt = battle.points[battle.ptIdx];
+    spt._qIdx = (spt._qIdx||0)+1;
+    if(spt._qIdx >= (spt.questions||[]).length) spt._qIdx=0;
     nextQuestion();
   } else if(type==='fifty'){
     const pt = battle.points[battle.ptIdx];
