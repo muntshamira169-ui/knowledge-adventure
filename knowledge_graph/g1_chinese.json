@@ -1,0 +1,3023 @@
+{
+  "subject": "chinese",
+  "grade": 1,
+  "stages": [
+    {
+      "name": "一年级上册",
+      "semester": "上",
+      "units": [
+        {
+          "name": "识字1-4：天地人",
+          "points": [
+            {
+              "id": "c1a_001",
+              "name": "会认字：一二三上下",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "'一'字有几画？",
+                  "answer": "1画",
+                  "options": [
+                    "1画",
+                    "2画",
+                    "3画",
+                    "4画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'上'的反义词是？",
+                  "answer": "下",
+                  "options": [
+                    "左",
+                    "下",
+                    "高",
+                    "前"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "天对地，雨对？",
+                  "answer": "风（或对韵）",
+                  "options": [
+                    "雪",
+                    "风",
+                    "云",
+                    "雷"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'三'的笔顺第二画是？",
+                  "answer": "横",
+                  "options": [
+                    "横",
+                    "竖",
+                    "撇",
+                    "捺"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个字笔画最少？",
+                  "answer": "一",
+                  "options": [
+                    "一",
+                    "二",
+                    "三",
+                    "上"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "填空：一()人",
+                  "answer": "个",
+                  "options": [
+                    "个",
+                    "只",
+                    "条",
+                    "头"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'下'字有几画？",
+                  "answer": "3画",
+                  "options": [
+                    "2画",
+                    "3画",
+                    "4画",
+                    "1画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'二'加一笔变成？",
+                  "answer": "三（或土、工等）",
+                  "options": [
+                    "土",
+                    "三",
+                    "王",
+                    "天"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个不是反义词？",
+                  "answer": "大-小",
+                  "options": [
+                    "上-下",
+                    "左-右",
+                    "大-小",
+                    "前-后"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'地'的偏旁是？",
+                  "answer": "土字旁",
+                  "options": [
+                    "土字旁",
+                    "也字",
+                    "王字旁",
+                    "提土旁"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_002",
+              "name": "会认字：金木水火土",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "'火'字有几画？",
+                  "answer": "4画",
+                  "options": [
+                    "3画",
+                    "4画",
+                    "5画",
+                    "2画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "五行中'金'排第几？",
+                  "answer": "第一",
+                  "options": [
+                    "第一",
+                    "第二",
+                    "第三",
+                    "第四"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'水'的笔顺第一画是？",
+                  "answer": "竖钩",
+                  "options": [
+                    "横",
+                    "竖钩",
+                    "撇",
+                    "点"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个字跟金属有关？",
+                  "answer": "铁",
+                  "options": [
+                    "木",
+                    "铁",
+                    "河",
+                    "火"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'土'加一笔变成？",
+                  "answer": "王（或士）",
+                  "options": [
+                    "王",
+                    "士",
+                    "干",
+                    "王或士都可以"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "灭火用什么？",
+                  "answer": "水",
+                  "options": [
+                    "土",
+                    "水",
+                    "木",
+                    "金"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'木'可以组成什么词？",
+                  "answer": "树木、木头",
+                  "options": [
+                    "水木",
+                    "火木",
+                    "树木、木头",
+                    "金石"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'金木水火土'总称什么？",
+                  "answer": "五行",
+                  "options": [
+                    "五行",
+                    "五色",
+                    "五味",
+                    "五官"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "笔画横竖撇捺，'水'字包含哪些？",
+                  "answer": "竖钩、横撇、撇、捺",
+                  "options": [
+                    "只有横",
+                    "竖钩、横撇、撇、捺",
+                    "只有撇捺",
+                    "横竖"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "哪个不是反义词对？",
+                  "answer": "金-土",
+                  "options": [
+                    "天-地",
+                    "上-下",
+                    "金-土",
+                    "水-火"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_003",
+              "name": "会认字：口耳目",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "'口'字像什么？",
+                  "answer": "张开的嘴巴",
+                  "options": [
+                    "耳朵",
+                    "张开的嘴巴",
+                    "鼻子",
+                    "眼睛"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'耳'有几画？",
+                  "answer": "6画",
+                  "options": [
+                    "4画",
+                    "5画",
+                    "6画",
+                    "7画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'目'是什么意思？",
+                  "answer": "眼睛",
+                  "options": [
+                    "嘴巴",
+                    "鼻子",
+                    "眼睛",
+                    "耳朵"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "哪个字是象形字？",
+                  "answer": "口耳目都是",
+                  "options": [
+                    "只有口",
+                    "口耳目都是",
+                    "只有耳",
+                    "都不是"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'手'的最后一画是？",
+                  "answer": "竖钩",
+                  "options": [
+                    "横",
+                    "竖钩",
+                    "撇",
+                    "捺"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "五官包括？",
+                  "answer": "眼耳口鼻舌",
+                  "options": [
+                    "眼耳口鼻舌",
+                    "手脚",
+                    "头发",
+                    "牙齿"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'目'加一笔变成？",
+                  "answer": "自",
+                  "options": [
+                    "日",
+                    "自",
+                    "白",
+                    "田"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'足'就是什么？",
+                  "answer": "脚",
+                  "options": [
+                    "手",
+                    "脚",
+                    "头",
+                    "身体"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "站如松，坐如？",
+                  "answer": "钟",
+                  "options": [
+                    "钟",
+                    "弓",
+                    "风",
+                    "树"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'口'的笔顺是？",
+                  "answer": "竖、横折、横",
+                  "options": [
+                    "横、竖",
+                    "竖、横折、横",
+                    "横、竖、横",
+                    "横折、横"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_004",
+              "name": "会认字：日月水火",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "'日'字像什么？",
+                  "answer": "太阳",
+                  "options": [
+                    "月亮",
+                    "太阳",
+                    "星星",
+                    "石头"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'月'有几画？",
+                  "answer": "4画",
+                  "options": [
+                    "3画",
+                    "4画",
+                    "5画",
+                    "6画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'日'和'目'区别在哪？",
+                  "answer": "日少一横",
+                  "options": [
+                    "日少一横",
+                    "一模一样",
+                    "目少一横",
+                    "完全无关"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'火'字怎么写？",
+                  "answer": "点、撇、撇、捺",
+                  "options": [
+                    "横横横横",
+                    "点、撇、撇、捺",
+                    "竖横竖横",
+                    "撇捺撇捺"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'水'的象形字来源于？",
+                  "answer": "流动的水流",
+                  "options": [
+                    "石头",
+                    "流动的水流",
+                    "火焰",
+                    "树木"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "日出东方，月出？",
+                  "answer": "西方（实际是东升西落）",
+                  "options": [
+                    "南方",
+                    "北方",
+                    "东方",
+                    "西方"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个不是自然景物？",
+                  "answer": "桌子",
+                  "options": [
+                    "日",
+                    "月",
+                    "水",
+                    "桌子"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'田'像什么？",
+                  "answer": "分割的田地",
+                  "options": [
+                    "窗户",
+                    "分割的田地",
+                    "嘴巴",
+                    "太阳"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "看图识字的方法属于？",
+                  "answer": "象形识字",
+                  "options": [
+                    "拼音识字",
+                    "象形识字",
+                    "部首识字",
+                    "随便认"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "月亮有时像什么？",
+                  "answer": "小船/香蕉/镰刀",
+                  "options": [
+                    "太阳",
+                    "地球",
+                    "小船/香蕉/镰刀",
+                    "星星"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_005",
+              "name": "对韵歌",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "云对雨，雪对？",
+                  "answer": "风",
+                  "options": [
+                    "雷",
+                    "风",
+                    "电",
+                    "霜"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "花对树，鸟对？",
+                  "answer": "虫",
+                  "options": [
+                    "鱼",
+                    "虫",
+                    "兽",
+                    "草"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "山清对？",
+                  "answer": "水秀",
+                  "options": [
+                    "水秀",
+                    "水清",
+                    "山秀",
+                    "河清"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "柳绿对？",
+                  "answer": "桃红",
+                  "options": [
+                    "花红",
+                    "桃红",
+                    "草绿",
+                    "叶黄"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "对韵歌中'清'和'秀'分别形容？",
+                  "answer": "山清、水秀",
+                  "options": [
+                    "山清、水秀",
+                    "水清、山秀",
+                    "都是山",
+                    "都是水"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'云'有几画？",
+                  "answer": "4画",
+                  "options": [
+                    "3画",
+                    "4画",
+                    "5画",
+                    "2画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'风'的第二画是？",
+                  "answer": "横斜钩",
+                  "options": [
+                    "横",
+                    "横斜钩",
+                    "撇",
+                    "点"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "对韵歌中的'对'表示什么意思？",
+                  "answer": "配对、对应",
+                  "options": [
+                    "错误",
+                    "配对、对应",
+                    "反对",
+                    "正确"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'虫'可以组成什么词？",
+                  "answer": "虫子、昆虫",
+                  "options": [
+                    "鱼类",
+                    "虫子、昆虫",
+                    "鸟类",
+                    "花草"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪组不押韵？",
+                  "answer": "来-去",
+                  "options": [
+                    "风-虫",
+                    "红-空",
+                    "清-明",
+                    "来-去"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "汉语拼音",
+          "points": [
+            {
+              "id": "c1a_006",
+              "name": "单韵母 a o e",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "单韵母有几个？",
+                  "answer": "6个",
+                  "options": [
+                    "4个",
+                    "5个",
+                    "6个",
+                    "3个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "张大嘴巴读什么？",
+                  "answer": "a",
+                  "options": [
+                    "a",
+                    "o",
+                    "e",
+                    "i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "公鸡打鸣读什么？",
+                  "answer": "o",
+                  "options": [
+                    "a",
+                    "o",
+                    "e",
+                    "u"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "大白鹅读什么？",
+                  "answer": "e",
+                  "options": [
+                    "a",
+                    "o",
+                    "e",
+                    "i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "a o e 的声调标在哪个字母上？",
+                  "answer": "标在a/o/e上",
+                  "options": [
+                    "标在其他字母",
+                    "标在a/o/e上",
+                    "不标",
+                    "随便标"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "ā á ǎ à 分别是什么声调？",
+                  "answer": "一声二声三声四声",
+                  "options": [
+                    "四声三声二声一声",
+                    "一声二声三声四声",
+                    "都是一声",
+                    "声调无所谓"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "单韵母发音时口型？",
+                  "answer": "保持不变",
+                  "options": [
+                    "保持不变",
+                    "不断变化",
+                    "先大后小",
+                    "先小后大"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个不是单韵母？",
+                  "answer": "b",
+                  "options": [
+                    "a",
+                    "o",
+                    "e",
+                    "b"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'a'的发音气流怎样？",
+                  "answer": "从喉咙自然发出",
+                  "options": [
+                    "被嘴唇阻挡",
+                    "从喉咙自然发出",
+                    "被牙齿阻挡",
+                    "被舌头阻挡"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "声调中第三声的符号是？",
+                  "answer": "ˇ",
+                  "options": [
+                    "¯",
+                    "ˊ",
+                    "ˇ",
+                    "ˋ"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_007",
+              "name": "单韵母 i u ü",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "i u ü 也是什么？",
+                  "answer": "单韵母",
+                  "options": [
+                    "声母",
+                    "单韵母",
+                    "复韵母",
+                    "鼻韵母"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'i'上加声调时，点要？",
+                  "answer": "去掉",
+                  "options": [
+                    "保留",
+                    "去掉",
+                    "变大",
+                    "不变"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'ü'和'u'的区别是？",
+                  "answer": "ü上面有两点",
+                  "options": [
+                    "一样",
+                    "ü上面有两点",
+                    "u上面有两点",
+                    "发音相同"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小鱼吐泡读什么？",
+                  "answer": "ü",
+                  "options": [
+                    "u",
+                    "ü",
+                    "i",
+                    "e"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "牙齿对齐读什么？",
+                  "answer": "i",
+                  "options": [
+                    "a",
+                    "o",
+                    "i",
+                    "u"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小乌龟读什么？",
+                  "answer": "u",
+                  "options": [
+                    "ü",
+                    "u",
+                    "o",
+                    "e"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "j q x 和 ü 拼时，ü上的两点？",
+                  "answer": "省略",
+                  "options": [
+                    "保留",
+                    "省略",
+                    "变大",
+                    "变成u"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "六个单韵母从大到小排列口型？",
+                  "answer": "a o e i u ü",
+                  "options": [
+                    "i u ü a o e",
+                    "a o e i u ü",
+                    "e o a i u ü",
+                    "ü u i e o a"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'lǜ'中的韵母是？",
+                  "answer": "ü",
+                  "options": [
+                    "u",
+                    "ü",
+                    "i",
+                    "e"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列声调标法正确的是？",
+                  "answer": "ī",
+                  "options": [
+                    "ī",
+                    "í",
+                    "ǐ",
+                    "ì"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_008",
+              "name": "声母 b p m f",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "b p m f 是什么？",
+                  "answer": "声母",
+                  "options": [
+                    "韵母",
+                    "声母",
+                    "声调",
+                    "音节"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'b'发音时？",
+                  "answer": "双唇闭合，气流冲出",
+                  "options": [
+                    "张大口",
+                    "双唇闭合，气流冲出",
+                    "牙齿咬唇",
+                    "舌头卷起"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'p'和'b'发音区别？",
+                  "answer": "p送气强，b不送气",
+                  "options": [
+                    "完全一样",
+                    "p送气强，b不送气",
+                    "b送气强",
+                    "口型不同"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'m'是什么音？",
+                  "answer": "鼻音",
+                  "options": [
+                    "鼻音",
+                    "塞音",
+                    "擦音",
+                    "边音"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'f'发音时上齿接触？",
+                  "answer": "下唇",
+                  "options": [
+                    "上唇",
+                    "下唇",
+                    "牙齿",
+                    "舌头"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "b-ā 拼出什么？",
+                  "answer": "bā",
+                  "options": [
+                    "pā",
+                    "bā",
+                    "bē",
+                    "pō"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "爸爸的爸声母是？",
+                  "answer": "b",
+                  "options": [
+                    "p",
+                    "b",
+                    "m",
+                    "f"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "婆pó的声母是？",
+                  "answer": "p",
+                  "options": [
+                    "b",
+                    "p",
+                    "m",
+                    "f"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "妈mā的声母是？",
+                  "answer": "m",
+                  "options": [
+                    "b",
+                    "p",
+                    "m",
+                    "f"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "f和o拼读是什么？",
+                  "answer": "fo",
+                  "options": [
+                    "fu",
+                    "fo",
+                    "fe",
+                    "fa"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_009",
+              "name": "声母 d t n l",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "d t n l 发音时舌尖顶住？",
+                  "answer": "上齿龈",
+                  "options": [
+                    "上唇",
+                    "下唇",
+                    "上齿龈",
+                    "软腭"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'d'和't'的区别是？",
+                  "answer": "t送气，d不送气",
+                  "options": [
+                    "完全一样",
+                    "t送气，d不送气",
+                    "d是鼻音",
+                    "t是鼻音"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'n'是什么音？",
+                  "answer": "鼻音",
+                  "options": [
+                    "塞音",
+                    "鼻音",
+                    "擦音",
+                    "边音"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'l'是什么音？",
+                  "answer": "边音",
+                  "options": [
+                    "鼻音",
+                    "边音",
+                    "塞音",
+                    "擦音"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "大dà的声母是？",
+                  "answer": "d",
+                  "options": [
+                    "t",
+                    "d",
+                    "n",
+                    "l"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "他tā的声母是？",
+                  "answer": "t",
+                  "options": [
+                    "d",
+                    "t",
+                    "n",
+                    "l"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "你nǐ的声母是？",
+                  "answer": "n",
+                  "options": [
+                    "d",
+                    "t",
+                    "n",
+                    "l"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "来lái的声母是？",
+                  "answer": "l",
+                  "options": [
+                    "d",
+                    "t",
+                    "n",
+                    "l"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "n和l最大的区别？",
+                  "answer": "n是鼻音l是边音",
+                  "options": [
+                    "完全一样",
+                    "n是鼻音l是边音",
+                    "l是鼻音",
+                    "没有区别"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "d和哪个单韵母不能拼？",
+                  "answer": "ü（一般不拼）",
+                  "options": [
+                    "a",
+                    "e",
+                    "i",
+                    "ü"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_010",
+              "name": "声母 g k h",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "g k h 发音位置在？",
+                  "answer": "舌根",
+                  "options": [
+                    "舌尖",
+                    "舌根",
+                    "双唇",
+                    "齿间"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "哥gē的声母是？",
+                  "answer": "g",
+                  "options": [
+                    "k",
+                    "g",
+                    "h",
+                    "j"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "哭kū的声母是？",
+                  "answer": "k",
+                  "options": [
+                    "g",
+                    "k",
+                    "h",
+                    "b"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "喝hē的声母是？",
+                  "answer": "h",
+                  "options": [
+                    "g",
+                    "k",
+                    "h",
+                    "f"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "g和k的区别？",
+                  "answer": "k送气，g不送气",
+                  "options": [
+                    "完全一样",
+                    "k送气，g不送气",
+                    "g是鼻音",
+                    "没有区别"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "g-u-ā 拼出？",
+                  "answer": "guā",
+                  "options": [
+                    "gā",
+                    "guā",
+                    "kuā",
+                    "huā"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "k-u-ò 拼出？",
+                  "answer": "kuò",
+                  "options": [
+                    "gò",
+                    "kuò",
+                    "huò",
+                    "kù"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "h-u-ǒ 拼出？",
+                  "answer": "huǒ",
+                  "options": [
+                    "gǒ",
+                    "kuǒ",
+                    "huǒ",
+                    "hǔ"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个是g-k-h排序？",
+                  "answer": "g、k、h（按发音位置从前往后）",
+                  "options": [
+                    "h-k-g",
+                    "g、k、h",
+                    "k-g-h",
+                    "h-g-k"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "三拼音节有几个字母？",
+                  "answer": "3个（声母+介母+韵母）",
+                  "options": [
+                    "1个",
+                    "2个",
+                    "3个",
+                    "4个"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "声母 zh ch sh r",
+          "points": [
+            {
+              "id": "c1a_012",
+              "name": "翘舌音 zh ch sh r",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "翘舌音发音时舌尖顶哪里？",
+                  "answer": "硬腭前部",
+                  "options": [
+                    "牙齿",
+                    "上齿龈",
+                    "硬腭前部",
+                    "软腭"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "知zhī的声母是？",
+                  "answer": "zh",
+                  "options": [
+                    "z",
+                    "zh",
+                    "ch",
+                    "j"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "吃chī的声母是？",
+                  "answer": "ch",
+                  "options": [
+                    "c",
+                    "ch",
+                    "zh",
+                    "q"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "师shī的声母是？",
+                  "answer": "sh",
+                  "options": [
+                    "s",
+                    "sh",
+                    "x",
+                    "r"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "日rì的声母是？",
+                  "answer": "r",
+                  "options": [
+                    "l",
+                    "r",
+                    "y",
+                    "n"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "zh和z的区别？",
+                  "answer": "zh翘舌，z平舌",
+                  "options": [
+                    "完全一样",
+                    "zh翘舌，z平舌",
+                    "z翘舌",
+                    "没有区别"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个是翘舌音？",
+                  "answer": "sh",
+                  "options": [
+                    "s",
+                    "sh",
+                    "x",
+                    "j"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "ch和c的区别？",
+                  "answer": "ch翘舌送气，c平舌送气",
+                  "options": [
+                    "一样",
+                    "ch翘舌送气，c平舌送气",
+                    "c翘舌",
+                    "没有区别"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "r发音时声带？",
+                  "answer": "震动（浊音）",
+                  "options": [
+                    "不震动",
+                    "震动",
+                    "有时震动",
+                    "不知道"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "zh ch sh r合称？",
+                  "answer": "翘舌音",
+                  "options": [
+                    "平舌音",
+                    "翘舌音",
+                    "舌面音",
+                    "唇齿音"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "声母 z c s",
+          "points": [
+            {
+              "id": "c1a_013",
+              "name": "平舌音 z c s",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "平舌音发音时舌尖顶哪里？",
+                  "answer": "上齿背",
+                  "options": [
+                    "硬腭",
+                    "上齿背",
+                    "下齿",
+                    "软腭"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "字zì的声母是？",
+                  "answer": "z",
+                  "options": [
+                    "zh",
+                    "z",
+                    "c",
+                    "s"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "词cí的声母是？",
+                  "answer": "c",
+                  "options": [
+                    "ch",
+                    "c",
+                    "z",
+                    "s"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "四sì的声母是？",
+                  "answer": "s",
+                  "options": [
+                    "sh",
+                    "s",
+                    "x",
+                    "c"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "平舌音和翘舌音主要区别？",
+                  "answer": "舌尖位置",
+                  "options": [
+                    "声音大小",
+                    "舌尖位置",
+                    "声带震动",
+                    "口型大小"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个是平舌音？",
+                  "answer": "z",
+                  "options": [
+                    "zh",
+                    "z",
+                    "ch",
+                    "sh"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "z c s 合称？",
+                  "answer": "平舌音",
+                  "options": [
+                    "翘舌音",
+                    "平舌音",
+                    "舌面音",
+                    "双唇音"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "做zuò的声母是？",
+                  "answer": "z",
+                  "options": [
+                    "zh",
+                    "z",
+                    "c",
+                    "s"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "猜cāi的声母是？",
+                  "answer": "c",
+                  "options": [
+                    "ch",
+                    "c",
+                    "z",
+                    "s"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "三sān的声母是？",
+                  "answer": "s",
+                  "options": [
+                    "sh",
+                    "s",
+                    "x",
+                    "z"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "声母 y w",
+          "points": [
+            {
+              "id": "c1a_014",
+              "name": "y w 的发音与拼读",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "y和i发音有什么关系？",
+                  "answer": "读音相同，y是声母i是韵母",
+                  "options": [
+                    "完全无关",
+                    "读音相同",
+                    "y是i的大写",
+                    "y读作u"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "w和u发音有什么关系？",
+                  "answer": "读音相同，w是声母u是韵母",
+                  "options": [
+                    "无关",
+                    "读音相同",
+                    "w是u的大写",
+                    "w读作i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "yī的声母是？",
+                  "answer": "y",
+                  "options": [
+                    "y",
+                    "i",
+                    "yi",
+                    "没有声母"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "wǒ的声母是？",
+                  "answer": "w",
+                  "options": [
+                    "w",
+                    "u",
+                    "o",
+                    "wo"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "y和ü拼时，ü上两点？",
+                  "answer": "省略",
+                  "options": [
+                    "保留",
+                    "省略",
+                    "变大",
+                    "变成u"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个整体认读音节是对的？",
+                  "answer": "yi",
+                  "options": [
+                    "yi",
+                    "ya",
+                    "i",
+                    "y"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "wū的拼写中w是？",
+                  "answer": "声母",
+                  "options": [
+                    "韵母",
+                    "声母",
+                    "声调",
+                    "不需要"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "ye是一个什么音节？",
+                  "answer": "整体认读音节",
+                  "options": [
+                    "两拼音节",
+                    "三拼音节",
+                    "整体认读音节",
+                    "零声母音节"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "yue中的ü怎么处理？",
+                  "answer": "省略两点",
+                  "options": [
+                    "保留两点",
+                    "省略两点",
+                    "变为u",
+                    "变为i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "yuan有几个字母？",
+                  "answer": "4个",
+                  "options": [
+                    "2个",
+                    "3个",
+                    "4个",
+                    "5个"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "复韵母",
+          "points": [
+            {
+              "id": "c1a_015",
+              "name": "复韵母 ai ei ui ao ou iu",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "bēi的韵母是？",
+                  "answer": "ei",
+                  "options": [
+                    "ai",
+                    "ei",
+                    "ui",
+                    "i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "duì的韵母是？",
+                  "answer": "ui",
+                  "options": [
+                    "ai",
+                    "ei",
+                    "ui",
+                    "i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "好hǎo的韵母是？",
+                  "answer": "ao",
+                  "options": [
+                    "ao",
+                    "ou",
+                    "a",
+                    "o"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "狗gǒu的韵母是？",
+                  "answer": "ou",
+                  "options": [
+                    "ao",
+                    "ou",
+                    "o",
+                    "u"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "牛niú的韵母是？",
+                  "answer": "iu",
+                  "options": [
+                    "ao",
+                    "ou",
+                    "iu",
+                    "i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "复韵母标调规则口诀？",
+                  "answer": "有a不放过，无a找o e，i u并列标在后",
+                  "options": [
+                    "随便标",
+                    "有a不放过",
+                    "i u并列标在后",
+                    "有a不放过，无a找o e，i u并列标在后"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "白bái的韵母是？",
+                  "answer": "ai",
+                  "options": [
+                    "a",
+                    "ai",
+                    "ei",
+                    "i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "猫māo的韵母是？",
+                  "answer": "ao",
+                  "options": [
+                    "a",
+                    "ao",
+                    "ou",
+                    "o"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "走zǒu的韵母是？",
+                  "answer": "ou",
+                  "options": [
+                    "ao",
+                    "ou",
+                    "o",
+                    "u"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "球qiú的韵母是？",
+                  "answer": "iu",
+                  "options": [
+                    "iu",
+                    "ui",
+                    "ou",
+                    "i"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_016",
+              "name": "复韵母 ie üe er",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "写xiě的韵母是？",
+                  "answer": "ie",
+                  "options": [
+                    "ie",
+                    "ei",
+                    "i",
+                    "e"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "月yuè的韵母是？",
+                  "answer": "üe",
+                  "options": [
+                    "ue",
+                    "üe",
+                    "ie",
+                    "ye"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "特殊韵母er发音时？",
+                  "answer": "舌头卷起",
+                  "options": [
+                    "舌头放平",
+                    "舌头卷起",
+                    "牙齿咬合",
+                    "嘴唇突出"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "儿ér是几拼音节？",
+                  "answer": "整体认读音节",
+                  "options": [
+                    "两拼",
+                    "三拼",
+                    "整体认读音节",
+                    "零声母"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "j和üe拼时怎么写？",
+                  "answer": "jue（省略两点）",
+                  "options": [
+                    "jüe",
+                    "jue",
+                    "jii",
+                    "je"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "雪xuě的韵母是？",
+                  "answer": "üe",
+                  "options": [
+                    "ue",
+                    "üe",
+                    "ie",
+                    "ye"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "ie的声调标在哪个字母？",
+                  "answer": "e",
+                  "options": [
+                    "i",
+                    "e",
+                    "都可以",
+                    "不标"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个是特殊韵母？",
+                  "answer": "er",
+                  "options": [
+                    "ie",
+                    "üe",
+                    "er",
+                    "iu"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "耳朵的拼音是？",
+                  "answer": "ěr duo",
+                  "options": [
+                    "ěr duo",
+                    "ér duo",
+                    "ěi dou",
+                    "éi duo"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "üe的声调标在哪个字母？",
+                  "answer": "e",
+                  "options": [
+                    "ü",
+                    "e",
+                    "都可以",
+                    "不标"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "鼻韵母",
+          "points": [
+            {
+              "id": "c1a_017",
+              "name": "前鼻韵母 an en in un ün",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "前鼻韵母末尾都有什么字母？",
+                  "answer": "n",
+                  "options": [
+                    "n",
+                    "ng",
+                    "g",
+                    "m"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "山shān的韵母是？",
+                  "answer": "an",
+                  "options": [
+                    "a",
+                    "an",
+                    "ang",
+                    "n"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "人rén的韵母是？",
+                  "answer": "en",
+                  "options": [
+                    "e",
+                    "en",
+                    "eng",
+                    "n"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "今jīn的韵母是？",
+                  "answer": "in",
+                  "options": [
+                    "i",
+                    "in",
+                    "ing",
+                    "n"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "春chūn的韵母是？",
+                  "answer": "un",
+                  "options": [
+                    "u",
+                    "un",
+                    "ün",
+                    "n"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "云yún的韵母是？",
+                  "answer": "ün",
+                  "options": [
+                    "un",
+                    "ün",
+                    "in",
+                    "en"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "j和ün拼时怎么写？",
+                  "answer": "jun",
+                  "options": [
+                    "jün",
+                    "jun",
+                    "jīn",
+                    "jūn"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "前鼻音发音时气流从哪出？",
+                  "answer": "鼻子",
+                  "options": [
+                    "嘴",
+                    "鼻子",
+                    "眼睛",
+                    "耳朵"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "an en in un ün共有几个？",
+                  "answer": "5个",
+                  "options": [
+                    "3个",
+                    "4个",
+                    "5个",
+                    "6个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "哪个不是前鼻韵母？",
+                  "answer": "ang",
+                  "options": [
+                    "an",
+                    "en",
+                    "in",
+                    "ang"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_018",
+              "name": "后鼻韵母 ang eng ing ong",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "后鼻韵母末尾都有什么？",
+                  "answer": "ng",
+                  "options": [
+                    "n",
+                    "ng",
+                    "g",
+                    "m"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "帮bāng的韵母是？",
+                  "answer": "ang",
+                  "options": [
+                    "an",
+                    "ang",
+                    "a",
+                    "ng"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "风fēng的韵母是？",
+                  "answer": "eng",
+                  "options": [
+                    "en",
+                    "eng",
+                    "e",
+                    "ng"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "星xīng的韵母是？",
+                  "answer": "ing",
+                  "options": [
+                    "in",
+                    "ing",
+                    "i",
+                    "ng"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "红hóng的韵母是？",
+                  "answer": "ong",
+                  "options": [
+                    "on",
+                    "ong",
+                    "o",
+                    "ng"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "后鼻韵母共有几个？",
+                  "answer": "4个",
+                  "options": [
+                    "3个",
+                    "4个",
+                    "5个",
+                    "6个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "前鼻音和后鼻音的主要区别？",
+                  "answer": "韵尾n vs ng，舌位不同",
+                  "options": [
+                    "完全一样",
+                    "韵尾不同",
+                    "声母不同",
+                    "声调不同"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "天堂的拼音是？",
+                  "answer": "tiān táng",
+                  "options": [
+                    "tiān tán",
+                    "tiān táng",
+                    "tiān tén",
+                    "tiān téng"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "明亮的拼音是？",
+                  "answer": "míng liàng",
+                  "options": [
+                    "mín liàng",
+                    "míng liàng",
+                    "mín liàn",
+                    "míng liàn"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "ang eng ing ong发音时舌根？",
+                  "answer": "抬起接触软腭",
+                  "options": [
+                    "放平",
+                    "抬起接触软腭",
+                    "顶住牙齿",
+                    "不动"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "整体认读音节",
+          "points": [
+            {
+              "id": "c1a_019",
+              "name": "zhi chi shi ri zi ci si",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "整体认读音节共有几个？",
+                  "answer": "16个",
+                  "options": [
+                    "10个",
+                    "13个",
+                    "16个",
+                    "20个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "zhi chi shi ri是什么音？",
+                  "answer": "翘舌音整体认读",
+                  "options": [
+                    "平舌音",
+                    "翘舌音整体认读",
+                    "前鼻音",
+                    "双拼音节"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "zi ci si是什么音？",
+                  "answer": "平舌音整体认读",
+                  "options": [
+                    "翘舌音",
+                    "平舌音整体认读",
+                    "鼻音",
+                    "三拼音节"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "知的拼音是？",
+                  "answer": "zhī",
+                  "options": [
+                    "zī",
+                    "zhī",
+                    "jī",
+                    "zhi"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "日的拼音是？",
+                  "answer": "rì",
+                  "options": [
+                    "rì",
+                    "rè",
+                    "yì",
+                    "lì"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "整体认读音节需要拼读吗？",
+                  "answer": "不需要，直接读",
+                  "options": [
+                    "需要",
+                    "不需要，直接读",
+                    "有时候需要",
+                    "看情况"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "四的拼音是？",
+                  "answer": "sì",
+                  "options": [
+                    "sì",
+                    "shì",
+                    "xì",
+                    "cì"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "哪组都是整体认读音节？",
+                  "answer": "zhi chi shi ri",
+                  "options": [
+                    "za ca sa",
+                    "zhi chi shi ri",
+                    "zha cha sha",
+                    "ji qi xi"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "zi的声调标在？",
+                  "answer": "i上",
+                  "options": [
+                    "z上",
+                    "i上",
+                    "都不标",
+                    "z和i都标"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个不是整体认读音节？",
+                  "answer": "ba",
+                  "options": [
+                    "zhi",
+                    "chi",
+                    "shi",
+                    "ba"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1a_020",
+              "name": "yi wu yu ye yue yuan yin yun ying",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "衣的拼音是？",
+                  "answer": "yī",
+                  "options": [
+                    "ī",
+                    "yī",
+                    "yí",
+                    "i"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "乌的拼音是？",
+                  "answer": "wū",
+                  "options": [
+                    "ū",
+                    "wū",
+                    "wú",
+                    "u"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "鱼的拼音是？",
+                  "answer": "yú",
+                  "options": [
+                    "ǘ",
+                    "yú",
+                    "yǘ",
+                    "ú"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "月的拼音是？",
+                  "answer": "yuè",
+                  "options": [
+                    "yüè",
+                    "yuè",
+                    "üè",
+                    "yè"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "圆的拼音是？",
+                  "answer": "yuán",
+                  "options": [
+                    "yüán",
+                    "yuán",
+                    "üán",
+                    "wán"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "yu中的u实际是什么？",
+                  "answer": "ü（省略两点）",
+                  "options": [
+                    "u",
+                    "ü",
+                    "i",
+                    "e"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "音的拼音是？",
+                  "answer": "yīn",
+                  "options": [
+                    "īn",
+                    "yīn",
+                    "yīng",
+                    "yín"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "云的拼音是？",
+                  "answer": "yún",
+                  "options": [
+                    "ǘn",
+                    "yún",
+                    "yǘn",
+                    "wén"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "英的拼音是？",
+                  "answer": "yīng",
+                  "options": [
+                    "īng",
+                    "yīng",
+                    "yīn",
+                    "íng"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "整体认读音节中带y的有几个？",
+                  "answer": "8个",
+                  "options": [
+                    "5个",
+                    "8个",
+                    "10个",
+                    "6个"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "一年级下册",
+      "semester": "下",
+      "units": [
+        {
+          "name": "识字1-4：春夏秋冬/姓氏歌",
+          "points": [
+            {
+              "id": "c1b_001",
+              "name": "会认字：春冬风雪花飞入",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "'春'有几画？",
+                  "answer": "9画",
+                  "options": [
+                    "7画",
+                    "8画",
+                    "9画",
+                    "10画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'冬'的反义词是？",
+                  "answer": "夏",
+                  "options": [
+                    "春",
+                    "夏",
+                    "秋",
+                    "暖"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "春天开什么花？",
+                  "answer": "桃花/樱花",
+                  "options": [
+                    "菊花",
+                    "桃花",
+                    "梅花",
+                    "荷花"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'雪'的偏旁是？",
+                  "answer": "雨字头",
+                  "options": [
+                    "雨字头",
+                    "土字旁",
+                    "三点水",
+                    "草字头"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一年有几个季节？",
+                  "answer": "4个",
+                  "options": [
+                    "2个",
+                    "3个",
+                    "4个",
+                    "5个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'入'和'人'的区别？",
+                  "answer": "入捺出头，人捺不出头",
+                  "options": [
+                    "一样",
+                    "入捺出头",
+                    "人捺出头",
+                    "读音不同"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "春风一吹，柳树会？",
+                  "answer": "发芽",
+                  "options": [
+                    "落叶",
+                    "发芽",
+                    "结果",
+                    "枯萎"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'飞'的第二画是？",
+                  "answer": "撇",
+                  "options": [
+                    "横",
+                    "撇",
+                    "点",
+                    "竖"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "描写四季的成语？",
+                  "answer": "春暖花开/秋高气爽等",
+                  "options": [
+                    "天下太平",
+                    "春暖花开",
+                    "人山人海",
+                    "独一无二"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'花'的部首是？",
+                  "answer": "草字头",
+                  "options": [
+                    "三点水",
+                    "草字头",
+                    "单人旁",
+                    "木字旁"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1b_002",
+              "name": "姓氏歌：认识常见姓氏",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "中国最常见的前三大姓？",
+                  "answer": "王李张",
+                  "options": [
+                    "赵钱孙",
+                    "王李张",
+                    "周吴郑",
+                    "冯陈褚"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "百家姓第一个姓是？",
+                  "answer": "赵",
+                  "options": [
+                    "王",
+                    "李",
+                    "赵",
+                    "张"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "你的姓用拼音怎么拼？",
+                  "answer": "姓的首字母大写",
+                  "options": [
+                    "全小写",
+                    "全大写",
+                    "首字母大写",
+                    "不用拼音"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'姓'字的结构是？",
+                  "answer": "左右结构（女+生）",
+                  "options": [
+                    "上下结构",
+                    "左右结构",
+                    "独体字",
+                    "半包围"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'李'可以分解为？",
+                  "answer": "木+子",
+                  "options": [
+                    "木+子",
+                    "日+子",
+                    "禾+子",
+                    "木+了"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "自我介绍应该先说什么？",
+                  "answer": "姓名",
+                  "options": [
+                    "年龄",
+                    "姓名",
+                    "爱好",
+                    "学校"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'氏'有几画？",
+                  "answer": "4画",
+                  "options": [
+                    "3画",
+                    "4画",
+                    "5画",
+                    "6画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'张'的偏旁是？",
+                  "answer": "弓字旁",
+                  "options": [
+                    "长",
+                    "弓字旁",
+                    "单人旁",
+                    "立字旁"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "古代姓和氏的区别？",
+                  "answer": "姓表血缘，氏表分支",
+                  "options": [
+                    "一样",
+                    "姓表血缘",
+                    "氏表血缘",
+                    "没区别"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "造句：我姓___，叫___。",
+                  "answer": "（学生自由填写）",
+                  "options": [
+                    "王",
+                    "李",
+                    "张",
+                    "赵"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "课文重点篇目",
+          "points": [
+            {
+              "id": "c1b_003",
+              "name": "吃水不忘挖井人：感恩主题",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "课文讲的是谁的故事？",
+                  "answer": "毛主席",
+                  "options": [
+                    "周总理",
+                    "毛主席",
+                    "朱总司令",
+                    "邓爷爷"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'吃水'是什么意思？",
+                  "answer": "喝水/用水",
+                  "options": [
+                    "吃冰",
+                    "喝水",
+                    "游泳",
+                    "洗澡"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'不忘'的反面是？",
+                  "answer": "忘记",
+                  "options": [
+                    "记住",
+                    "忘记",
+                    "想念",
+                    "讨厌"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "为什么要挖井？",
+                  "answer": "村里缺水",
+                  "options": [
+                    "好玩",
+                    "村里缺水",
+                    "养鱼",
+                    "洗衣服"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "这篇课文告诉我们什么道理？",
+                  "answer": "饮水思源，懂得感恩",
+                  "options": [
+                    "多挖井",
+                    "饮水思源",
+                    "多喝水",
+                    "劳动光荣"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'井'有几画？",
+                  "answer": "4画",
+                  "options": [
+                    "3画",
+                    "4画",
+                    "5画",
+                    "6画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'忘'的部首是？",
+                  "answer": "心字底",
+                  "options": [
+                    "亡",
+                    "心字底",
+                    "三点水",
+                    "草字头"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'挖'的意思是什么？",
+                  "answer": "用工具把东西弄出来",
+                  "options": [
+                    "扔掉",
+                    "用工具把东西弄出来",
+                    "埋起来",
+                    "吃掉"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "瑞金在哪个省？",
+                  "answer": "江西省",
+                  "options": [
+                    "湖南",
+                    "江西",
+                    "福建",
+                    "广东"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "吃水不忘挖井人，下一句？",
+                  "answer": "时刻想念毛主席",
+                  "options": [
+                    "永远记心里",
+                    "时刻想念毛主席",
+                    "永远不忘恩",
+                    "天天要喝水"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1b_004",
+              "name": "静夜思：古诗背诵理解",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "《静夜思》的作者是？",
+                  "answer": "李白",
+                  "options": [
+                    "杜甫",
+                    "李白",
+                    "白居易",
+                    "王维"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "床前明月光，下一句？",
+                  "answer": "疑是地上霜",
+                  "options": [
+                    "低头思故乡",
+                    "疑是地上霜",
+                    "举头望明月",
+                    "月是故乡明"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'疑'在这里的意思是？",
+                  "answer": "好像",
+                  "options": [
+                    "怀疑",
+                    "好像",
+                    "一定",
+                    "不要"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "这首诗表达了什么情感？",
+                  "answer": "思乡之情",
+                  "options": [
+                    "高兴",
+                    "愤怒",
+                    "思乡之情",
+                    "悲伤"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'举头'的意思是？",
+                  "answer": "抬起头",
+                  "options": [
+                    "举起手",
+                    "抬起头",
+                    "低着头",
+                    "举起头"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "李白被称为？",
+                  "answer": "诗仙",
+                  "options": [
+                    "诗圣",
+                    "诗仙",
+                    "诗佛",
+                    "诗鬼"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "这首诗一共几句？",
+                  "answer": "4句",
+                  "options": [
+                    "2句",
+                    "4句",
+                    "6句",
+                    "8句"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "诗中描写的季节是？",
+                  "answer": "秋天",
+                  "options": [
+                    "春天",
+                    "夏天",
+                    "秋天",
+                    "冬天"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'霜'是什么？",
+                  "answer": "空气中水汽凝结的白色冰晶",
+                  "options": [
+                    "雨",
+                    "雪",
+                    "空气中水汽凝结的白色冰晶",
+                    "露水"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "背出整首诗",
+                  "answer": "床前明月光，疑是地上霜。举头望明月，低头思故乡。",
+                  "options": [
+                    "全对",
+                    "有错",
+                    "不会",
+                    "记不清"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "识字写字综合",
+          "points": [
+            {
+              "id": "c1b_005",
+              "name": "基本笔画总复习",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "汉字的基本笔画有几种？",
+                  "answer": "5种（横竖撇捺点）",
+                  "options": [
+                    "3种",
+                    "4种",
+                    "5种",
+                    "8种"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'十'的笔顺是？",
+                  "answer": "横、竖",
+                  "options": [
+                    "竖、横",
+                    "横、竖",
+                    "撇、竖",
+                    "横、撇"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'人'的第二画是？",
+                  "answer": "捺",
+                  "options": [
+                    "横",
+                    "竖",
+                    "撇",
+                    "捺"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'大'有几画？",
+                  "answer": "3画",
+                  "options": [
+                    "2画",
+                    "3画",
+                    "4画",
+                    "5画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "笔画'提'的书写方向是？",
+                  "answer": "从左下到右上",
+                  "options": [
+                    "从上到下",
+                    "从左到右",
+                    "从左下到右上",
+                    "从右到左"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'水'的第二画是？",
+                  "answer": "横撇",
+                  "options": [
+                    "竖钩",
+                    "横撇",
+                    "撇",
+                    "捺"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "哪种笔画收笔要出尖？",
+                  "answer": "撇和捺",
+                  "options": [
+                    "横和竖",
+                    "撇和捺",
+                    "点",
+                    "所有笔画"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'九'的第一画是？",
+                  "answer": "撇",
+                  "options": [
+                    "横",
+                    "撇",
+                    "横折弯钩",
+                    "点"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "笔顺规则：先横后？",
+                  "answer": "竖",
+                  "options": [
+                    "撇",
+                    "竖",
+                    "捺",
+                    "点"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "笔画最少的汉字是？",
+                  "answer": "一",
+                  "options": [
+                    "一",
+                    "乙",
+                    "丶",
+                    "〇"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c1b_006",
+              "name": "偏旁部首归类",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "'河'、'海'、'江'的共同偏旁是？",
+                  "answer": "三点水",
+                  "options": [
+                    "两点水",
+                    "三点水",
+                    "水字旁",
+                    "雨字头"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "带'木'字旁的字多与什么有关？",
+                  "answer": "树木",
+                  "options": [
+                    "水",
+                    "火",
+                    "树木",
+                    "金属"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'打'、'拍'、'扔'的共同偏旁是？",
+                  "answer": "提手旁",
+                  "options": [
+                    "提手旁",
+                    "反文旁",
+                    "单人旁",
+                    "木字旁"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'吃'、'喝'、'吹'的共同偏旁是？",
+                  "answer": "口字旁",
+                  "options": [
+                    "口字旁",
+                    "言字旁",
+                    "日字旁",
+                    "三点水"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "草字头的字多与什么有关？",
+                  "answer": "植物/花草",
+                  "options": [
+                    "动物",
+                    "植物",
+                    "矿物",
+                    "天气"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'你'、'他'、'们'的共同偏旁是？",
+                  "answer": "单人旁",
+                  "options": [
+                    "双人旁",
+                    "单人旁",
+                    "人字头",
+                    "女字旁"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "足字旁的字多与什么有关？",
+                  "answer": "脚/走路",
+                  "options": [
+                    "手",
+                    "脚",
+                    "头",
+                    "身体"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "雨字头的字多表示？",
+                  "answer": "天气现象",
+                  "options": [
+                    "植物",
+                    "天气现象",
+                    "颜色",
+                    "味道"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个不是单人旁的字？",
+                  "answer": "彳",
+                  "options": [
+                    "你",
+                    "他",
+                    "们",
+                    "彳"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "偏旁位于汉字左边通常叫什么？",
+                  "answer": "左偏旁",
+                  "options": [
+                    "字头",
+                    "字底",
+                    "左偏旁",
+                    "字框"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

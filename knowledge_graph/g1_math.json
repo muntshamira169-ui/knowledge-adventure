@@ -1,0 +1,5875 @@
+{
+  "subject": "math",
+  "grade": 1,
+  "stages": [
+    {
+      "name": "一年级上册",
+      "semester": "上",
+      "units": [
+        {
+          "name": "准备课：数一数",
+          "points": [
+            {
+              "id": "m1a_001",
+              "name": "1-5各数的认识",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "图中有3个苹果，应该用数字几表示？",
+                  "answer": "3",
+                  "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "数一数：★★★ 一共有几颗星？",
+                  "answer": "3",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "数字'1'可以表示什么？",
+                  "answer": "一个物体",
+                  "options": [
+                    "两个物体",
+                    "一个物体",
+                    "零个物体",
+                    "很多物体"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个数量是4？",
+                  "answer": "🍎🍎🍎🍎",
+                  "options": [
+                    "🍎🍎",
+                    "🍎🍎🍎",
+                    "🍎🍎🍎🍎",
+                    "🍎🍎🍎🍎🍎"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5比3多几？",
+                  "answer": "2",
+                  "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "数一数教室里有几扇窗户，应该怎样数？",
+                  "answer": "从左到右一个一个数",
+                  "options": [
+                    "随便数",
+                    "从左到右一个一个数",
+                    "只数左边的",
+                    "只数右边的"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "数字0表示什么意思？",
+                  "answer": "一个也没有",
+                  "options": [
+                    "一个也没有",
+                    "有一个",
+                    "有很多",
+                    "不知道"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "图中有0个气球，写作什么？",
+                  "answer": "0",
+                  "options": [
+                    "0",
+                    "1",
+                    "10",
+                    "空"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "2和3中间的数字是？",
+                  "answer": "没有",
+                  "options": [
+                    "2.5",
+                    "没有",
+                    "5",
+                    "1"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比4少1的数是？",
+                  "answer": "3",
+                  "options": [
+                    "5",
+                    "3",
+                    "2",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_002",
+              "name": "比多少（一一对应）",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "5只兔子和4根胡萝卜，谁多？",
+                  "answer": "兔子多",
+                  "options": [
+                    "兔子多",
+                    "胡萝卜多",
+                    "一样多",
+                    "不知道"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用一一对应的方法比较：🐱🐱🐱 和 🐟🐟，哪个多？",
+                  "answer": "猫多",
+                  "options": [
+                    "猫多",
+                    "鱼多",
+                    "一样多",
+                    "无法比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "○○○○○ 比 △△△ 多几个？",
+                  "answer": "2个",
+                  "options": [
+                    "1个",
+                    "2个",
+                    "3个",
+                    "5个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "6个小朋友，5把椅子，够坐吗？",
+                  "answer": "不够",
+                  "options": [
+                    "够",
+                    "不够",
+                    "刚刚好",
+                    "无法判断"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "同样多的意思是？",
+                  "answer": "数量完全相同",
+                  "options": [
+                    "数量完全相同",
+                    "数量差不多",
+                    "数量差很多",
+                    "形状相同"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "哪种方法比较两个数量最准确？",
+                  "answer": "一一对应连线",
+                  "options": [
+                    "猜一猜",
+                    "一一对应连线",
+                    "看大小",
+                    "听别人说"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "4只蝴蝶和4朵花，一一对应后结果？",
+                  "answer": "一样多",
+                  "options": [
+                    "蝴蝶多",
+                    "花多",
+                    "一样多",
+                    "看不清"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比8少3的数是多少？",
+                  "answer": "5",
+                  "options": [
+                    "11",
+                    "5",
+                    "3",
+                    "8"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10和7比，谁大？",
+                  "answer": "10大",
+                  "options": [
+                    "10大",
+                    "7大",
+                    "一样大",
+                    "无法比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "桌上有6本书，书包里有4本，哪里多？",
+                  "answer": "桌上多",
+                  "options": [
+                    "桌上多",
+                    "书包里多",
+                    "一样多",
+                    "不知道"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_003",
+              "name": "第几（序数）",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "排队时小明站在第3个，他前面有几人？",
+                  "answer": "2人",
+                  "options": [
+                    "3人",
+                    "2人",
+                    "1人",
+                    "4人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从左数第4个是什么？△○□☆○（从左数第4个）",
+                  "answer": "☆",
+                  "options": [
+                    "△",
+                    "○",
+                    "□",
+                    "☆"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'第5个'和'5个'意思一样吗？",
+                  "answer": "不一样",
+                  "options": [
+                    "一样",
+                    "不一样",
+                    "差不多",
+                    "有时候一样"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从右数第1个是？🍎🍊🍋🍇🍓",
+                  "answer": "🍓",
+                  "options": [
+                    "🍎",
+                    "🍋",
+                    "🍇",
+                    "🍓"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一共有8人排队，小红排第6，她后面有几人？",
+                  "answer": "2人",
+                  "options": [
+                    "6人",
+                    "2人",
+                    "8人",
+                    "4人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "第1名和第2名谁更快？",
+                  "answer": "第1名",
+                  "options": [
+                    "第1名",
+                    "第2名",
+                    "一样快",
+                    "不一定"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小动物赛跑：🐰🐢🐶🐱，第3名是谁？",
+                  "answer": "🐶",
+                  "options": [
+                    "🐰",
+                    "🐢",
+                    "🐶",
+                    "🐱"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "教室里第一排和最后一排，哪个是第一排？",
+                  "answer": "最前面的一排",
+                  "options": [
+                    "最前面的一排",
+                    "最后面的一排",
+                    "中间的一排",
+                    "随便哪排"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从10倒数到1，第5个是几？",
+                  "answer": "6",
+                  "options": [
+                    "5",
+                    "6",
+                    "4",
+                    "7"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "体育课从矮到高排队，最矮的是第几？",
+                  "answer": "第1",
+                  "options": [
+                    "第1",
+                    "最后",
+                    "中间",
+                    "第0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "位置",
+          "points": [
+            {
+              "id": "m1a_004",
+              "name": "上、下、前、后",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "小鸟在天上飞，小鱼在水里游，谁在上面？",
+                  "answer": "小鸟",
+                  "options": [
+                    "小鸟",
+                    "小鱼",
+                    "都在上面",
+                    "都在下面"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "教室黑板在黑板上面还是下面？",
+                  "answer": "上面",
+                  "options": [
+                    "上面",
+                    "下面",
+                    "前面",
+                    "后面"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明排在小红后面，小红排在小明___？",
+                  "answer": "前面",
+                  "options": [
+                    "前面",
+                    "后面",
+                    "左边",
+                    "右边"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "讲台在教室的___？",
+                  "answer": "前面",
+                  "options": [
+                    "前面",
+                    "后面",
+                    "上面",
+                    "中间"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "书架最上层是第几层？",
+                  "answer": "第一层",
+                  "options": [
+                    "第一层",
+                    "最后一层",
+                    "中间层",
+                    "不能确定"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "地下车库在楼房的哪个位置？",
+                  "answer": "下面",
+                  "options": [
+                    "上面",
+                    "下面",
+                    "前面",
+                    "中间"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "排队做操，小明前面5人后面3人，共几人？",
+                  "answer": "9人",
+                  "options": [
+                    "8人",
+                    "9人",
+                    "5人",
+                    "3人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从前往后数，小丽是第4个，她前面有几人？",
+                  "answer": "3人",
+                  "options": [
+                    "4人",
+                    "3人",
+                    "5人",
+                    "1人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "上楼梯时，脚往上还是往下？",
+                  "answer": "往上",
+                  "options": [
+                    "往上",
+                    "往下",
+                    "前后",
+                    "左右"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "衣服穿在身上，帽子戴在头上，帽子的位置是？",
+                  "answer": "上面",
+                  "options": [
+                    "上面",
+                    "下面",
+                    "前面",
+                    "后面"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_005",
+              "name": "左、右",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "大多数人写字用哪只手？",
+                  "answer": "右手",
+                  "options": [
+                    "右手",
+                    "左手",
+                    "两只手",
+                    "不一定"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "面对镜子，举起右手，镜中人举起的是？",
+                  "answer": "左手",
+                  "options": [
+                    "右手",
+                    "左手",
+                    "两只手",
+                    "没有手"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "上下楼梯应该靠哪边走？",
+                  "answer": "右边",
+                  "options": [
+                    "右边",
+                    "左边",
+                    "中间",
+                    "随便走"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小红在小明的左边，小明在小红的___？",
+                  "answer": "右边",
+                  "options": [
+                    "左边",
+                    "右边",
+                    "前面",
+                    "后面"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从左边数第3个是？🐱🐶🐰🐹🐻",
+                  "answer": "🐰",
+                  "options": [
+                    "🐱",
+                    "🐰",
+                    "🐹",
+                    "🐻"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "左手和右手合在一起可以做什么？",
+                  "answer": "拍手",
+                  "options": [
+                    "拍手",
+                    "走路",
+                    "跑步",
+                    "跳跃"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "马路上汽车靠哪边行驶？",
+                  "answer": "右边",
+                  "options": [
+                    "右边",
+                    "左边",
+                    "中间",
+                    "都可以"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "少先队员敬礼用哪只手？",
+                  "answer": "右手",
+                  "options": [
+                    "右手",
+                    "左手",
+                    "两只手",
+                    "不一定"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "视力表上最大的E开口朝右，我们应指哪个方向？",
+                  "answer": "右边",
+                  "options": [
+                    "右边",
+                    "左边",
+                    "上面",
+                    "下面"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用右手摸左耳，能做到吗？",
+                  "answer": "能",
+                  "options": [
+                    "能",
+                    "不能",
+                    "不知道",
+                    "要看哪只手"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "1~5的认识和加减法",
+          "points": [
+            {
+              "id": "m1a_006",
+              "name": "1~5的书写与组成",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "数字3像什么？",
+                  "answer": "耳朵",
+                  "options": [
+                    "铅笔",
+                    "鸭子",
+                    "耳朵",
+                    "旗子"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5可以分成2和几？",
+                  "answer": "3",
+                  "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "4可以分成几和几（两种分法）？",
+                  "answer": "1和3或2和2",
+                  "options": [
+                    "只有1和3",
+                    "只有2和2",
+                    "1和3或2和2",
+                    "1和4"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3+1等于几？",
+                  "answer": "4",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "2+2=？",
+                  "answer": "4",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "22"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5-1=？",
+                  "answer": "4",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "3"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3-2=？",
+                  "answer": "1",
+                  "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "5"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "2和3合起来是几？",
+                  "answer": "5",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "0+5=？",
+                  "answer": "5",
+                  "options": [
+                    "0",
+                    "5",
+                    "50",
+                    "10"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "4-4=？",
+                  "answer": "0",
+                  "options": [
+                    "4",
+                    "0",
+                    "1",
+                    "8"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_007",
+              "name": "加法的含义",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "妈妈买了2个苹果，又买了1个，一共多少个？用什么方法？",
+                  "answer": "加法",
+                  "options": [
+                    "加法",
+                    "减法",
+                    "乘法",
+                    "除法"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "树上3只鸟，又飞来2只，现在一共几只？",
+                  "answer": "5只",
+                  "options": [
+                    "3只",
+                    "5只",
+                    "1只",
+                    "2只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有1本书，小红有2本书，合起来几本？",
+                  "answer": "3本",
+                  "options": [
+                    "2本",
+                    "3本",
+                    "1本",
+                    "4本"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "加号' + '表示什么意思？",
+                  "answer": "合起来",
+                  "options": [
+                    "分开",
+                    "合起来",
+                    "拿走",
+                    "比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "0+3=3表示什么？",
+                  "answer": "没有加3个等于3个",
+                  "options": [
+                    "3个加0个等于3个",
+                    "0加任何数等于0",
+                    "没有加3个等于3个",
+                    "3没有了"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "左手2块糖，右手3块糖，一共几块？",
+                  "answer": "5块",
+                  "options": [
+                    "4块",
+                    "5块",
+                    "3块",
+                    "6块"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "盘子里原来有1个包子，又放了2个，现在？",
+                  "answer": "3个",
+                  "options": [
+                    "2个",
+                    "3个",
+                    "1个",
+                    "0个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'合并'和'添加'都可以用什么运算？",
+                  "answer": "加法",
+                  "options": [
+                    "加法",
+                    "减法",
+                    "乘法",
+                    "除法"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "教室左边2扇窗，右边2扇窗，一共？",
+                  "answer": "4扇",
+                  "options": [
+                    "2扇",
+                    "4扇",
+                    "0扇",
+                    "22扇"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "妈妈做了1道菜，爸爸做了3道菜，一共？",
+                  "answer": "4道",
+                  "options": [
+                    "3道",
+                    "4道",
+                    "2道",
+                    "13道"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_008",
+              "name": "减法的含义",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "有5个气球，飞走了1个，还剩几个？用什么方法？",
+                  "answer": "减法",
+                  "options": [
+                    "加法",
+                    "减法",
+                    "乘法",
+                    "除法"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "桌上有4块饼干，吃了2块，还剩几块？",
+                  "answer": "2块",
+                  "options": [
+                    "4块",
+                    "2块",
+                    "6块",
+                    "1块"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有3支笔，送给同学1支，还剩几支？",
+                  "answer": "2支",
+                  "options": [
+                    "3支",
+                    "2支",
+                    "4支",
+                    "1支"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "减号' - '表示什么意思？",
+                  "answer": "去掉、拿走",
+                  "options": [
+                    "合起来",
+                    "去掉、拿走",
+                    "加倍",
+                    "平分"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5-0=？",
+                  "answer": "5",
+                  "options": [
+                    "0",
+                    "5",
+                    "1",
+                    "50"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "公园有6人，走了2人，还剩？",
+                  "answer": "4人",
+                  "options": [
+                    "6人",
+                    "4人",
+                    "2人",
+                    "8人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "鱼缸8条鱼，捞走3条，还剩？",
+                  "answer": "5条",
+                  "options": [
+                    "8条",
+                    "5条",
+                    "3条",
+                    "11条"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "'还剩'、'飞走'、'吃完'都用什么法？",
+                  "answer": "减法",
+                  "options": [
+                    "加法",
+                    "减法",
+                    "乘法",
+                    "数数"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "篮子里有7个鸡蛋，打了1个，还剩？",
+                  "answer": "6个",
+                  "options": [
+                    "7个",
+                    "6个",
+                    "8个",
+                    "0个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10个小朋友，走了4个，还剩几个？",
+                  "answer": "6个",
+                  "options": [
+                    "10个",
+                    "6个",
+                    "4个",
+                    "14个"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "认识图形（一）",
+          "points": [
+            {
+              "id": "m1a_009",
+              "name": "认识长方体",
+              "difficulty": 1,
+              "exam_weight": 1,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "铅笔盒的形状最像什么？",
+                  "answer": "长方体",
+                  "options": [
+                    "球",
+                    "长方体",
+                    "圆柱",
+                    "正方体"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "长方体有几个面？",
+                  "answer": "6个",
+                  "options": [
+                    "4个",
+                    "6个",
+                    "8个",
+                    "2个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个是长方体？",
+                  "answer": "📦",
+                  "options": [
+                    "⚽",
+                    "📦",
+                    "🥫",
+                    "🎲"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "冰箱的形状接近什么立体图形？",
+                  "answer": "长方体",
+                  "options": [
+                    "正方体",
+                    "长方体",
+                    "球",
+                    "圆柱"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "长方体的面是什么形状？",
+                  "answer": "长方形",
+                  "options": [
+                    "全是正方形",
+                    "长方形（可能有正方形）",
+                    "全是圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "黑板擦的形状像什么？",
+                  "answer": "长方体",
+                  "options": [
+                    "正方体",
+                    "长方体",
+                    "球",
+                    "圆锥"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "魔方是正方体，数学书是什么体？",
+                  "answer": "长方体",
+                  "options": [
+                    "正方体",
+                    "长方体",
+                    "球",
+                    "圆柱"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一个长方体盒子可以怎么放？",
+                  "answer": "多种方式都可以稳放",
+                  "options": [
+                    "只能立着放",
+                    "多种方式都可以稳放",
+                    "只能平着放",
+                    "不能放稳"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "语文书、数学书都是什么形状？",
+                  "answer": "长方体",
+                  "options": [
+                    "正方体",
+                    "长方体",
+                    "圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "长方体和正方体最明显的区别是？",
+                  "answer": "正方体所有面都是正方形",
+                  "options": [
+                    "颜色不同",
+                    "正方体所有面都是正方形",
+                    "长方体更大",
+                    "没有区别"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_010",
+              "name": "认识正方体",
+              "difficulty": 1,
+              "exam_weight": 1,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "骰子是什么形状？",
+                  "answer": "正方体",
+                  "options": [
+                    "长方体",
+                    "正方体",
+                    "球",
+                    "圆柱"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方体有几个面？",
+                  "answer": "6个",
+                  "options": [
+                    "4个",
+                    "6个",
+                    "8个",
+                    "12个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方体的每个面都是什么形状？",
+                  "answer": "正方形",
+                  "options": [
+                    "长方形",
+                    "正方形",
+                    "圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一个正方体积木，从前面看是什么形状？",
+                  "answer": "正方形",
+                  "options": [
+                    "长方形",
+                    "正方形",
+                    "圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "魔方转一转，形状会变吗？",
+                  "answer": "不会，还是正方体",
+                  "options": [
+                    "会变成长方体",
+                    "不会，还是正方体",
+                    "会变成球",
+                    "不一定"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个像正方体？",
+                  "answer": "🎲",
+                  "options": [
+                    "📦",
+                    "🎲",
+                    "🥫",
+                    "⚽"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方体的棱有什么特点？",
+                  "answer": "12条棱一样长",
+                  "options": [
+                    "12条棱一样长",
+                    "有的长有的短",
+                    "只有4条棱",
+                    "8条棱"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用8个小正方体可以拼成什么？",
+                  "answer": "一个大正方体",
+                  "options": [
+                    "一个大正方体",
+                    "一个长方体",
+                    "一个球",
+                    "不能拼"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方体和长方体最大的相同点是？",
+                  "answer": "都有6个面",
+                  "options": [
+                    "颜色一样",
+                    "都有6个面",
+                    "都是正方形面",
+                    "大小一样"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个不是正方体的特征？",
+                  "answer": "可以滚动",
+                  "options": [
+                    "6个面",
+                    "每个面都是正方形",
+                    "12条棱一样长",
+                    "可以滚动"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_011",
+              "name": "认识圆柱",
+              "difficulty": 1,
+              "exam_weight": 1,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "易拉罐是什么形状？",
+                  "answer": "圆柱",
+                  "options": [
+                    "长方体",
+                    "正方体",
+                    "圆柱",
+                    "球"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "圆柱有几个平面？",
+                  "answer": "2个",
+                  "options": [
+                    "1个",
+                    "2个",
+                    "3个",
+                    "0个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "圆柱可以怎么运动？",
+                  "answer": "可以滚动",
+                  "options": [
+                    "只能滑动",
+                    "可以滚动",
+                    "只能堆叠",
+                    "不能动"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个不是圆柱？",
+                  "answer": "🎲",
+                  "options": [
+                    "🥫",
+                    "🕯️",
+                    "🧻",
+                    "🎲"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "水杯的形状通常像什么？",
+                  "answer": "圆柱",
+                  "options": [
+                    "正方体",
+                    "圆柱",
+                    "球",
+                    "圆锥"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "圆柱上下两个面是什么形状？",
+                  "answer": "圆形",
+                  "options": [
+                    "正方形",
+                    "长方形",
+                    "圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "圆柱竖着放和横着放，哪个容易滚？",
+                  "answer": "横着放",
+                  "options": [
+                    "竖着放",
+                    "横着放",
+                    "一样容易",
+                    "都不会滚"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "圆柱和球都能滚动，区别是？",
+                  "answer": "球随便滚，圆柱只能朝一个方向滚",
+                  "options": [
+                    "没有区别",
+                    "球随便滚，圆柱只能朝一个方向滚",
+                    "圆柱滚得更快",
+                    "球不能堆叠"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "将圆柱切开，横截面是什么形状？",
+                  "answer": "圆形",
+                  "options": [
+                    "长方形",
+                    "圆形",
+                    "正方形",
+                    "椭圆"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "生活中哪些物体是圆柱？",
+                  "answer": "笔筒、蜡烛、水管",
+                  "options": [
+                    "骰子、魔方",
+                    "笔筒、蜡烛、水管",
+                    "足球、篮球",
+                    "书本、纸盒"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_012",
+              "name": "认识球",
+              "difficulty": 1,
+              "exam_weight": 1,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "足球是什么形状？",
+                  "answer": "球",
+                  "options": [
+                    "长方体",
+                    "正方体",
+                    "圆柱",
+                    "球"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "球有几个平面？",
+                  "answer": "0个",
+                  "options": [
+                    "0个",
+                    "1个",
+                    "2个",
+                    "6个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "球可以怎么运动？",
+                  "answer": "向任何方向滚动",
+                  "options": [
+                    "只能向一个方向滚",
+                    "向任何方向滚动",
+                    "不能滚",
+                    "只能滑动"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个是球？",
+                  "answer": "⚽",
+                  "options": [
+                    "📦",
+                    "🎲",
+                    "🥫",
+                    "⚽"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "乒乓球、篮球、排球都是什么形状？",
+                  "answer": "球",
+                  "options": [
+                    "圆柱",
+                    "正方体",
+                    "球",
+                    "长方体"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "球能稳稳地放在桌面上不动吗？",
+                  "answer": "能，但需要小心",
+                  "options": [
+                    "绝对不能",
+                    "能，但需要小心",
+                    "非常稳",
+                    "和正方体一样稳"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "地球是什么形状？",
+                  "answer": "球体（近似）",
+                  "options": [
+                    "正方体",
+                    "长方体",
+                    "圆柱",
+                    "球体（近似）"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从任何方向看球，看到的是什么形状？",
+                  "answer": "圆形",
+                  "options": [
+                    "正方形",
+                    "长方形",
+                    "圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "玻璃弹珠是什么形状？",
+                  "answer": "球",
+                  "options": [
+                    "正方体",
+                    "球",
+                    "圆柱",
+                    "圆锥"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪个最容易滚动？",
+                  "answer": "球",
+                  "options": [
+                    "正方体",
+                    "长方体",
+                    "圆柱",
+                    "球"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "6~10的认识和加减法",
+          "points": [
+            {
+              "id": "m1a_013",
+              "name": "6和7的认识与书写",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "数字6像什么？",
+                  "answer": "哨子",
+                  "options": [
+                    "铅笔",
+                    "鸭子",
+                    "耳朵",
+                    "哨子"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "7可以分成3和几？",
+                  "answer": "4",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比5大1的数是？",
+                  "answer": "6",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "6比7大还是小？",
+                  "answer": "小",
+                  "options": [
+                    "大",
+                    "小",
+                    "一样",
+                    "不知道"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "6+1=？",
+                  "answer": "7",
+                  "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "8"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "7-2=？",
+                  "answer": "5",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "数字6的书写笔顺方向？",
+                  "answer": "从上往下，再画圈",
+                  "options": [
+                    "从下往上",
+                    "从上往下，再画圈",
+                    "从右往左",
+                    "随便写"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "6里面有几个1？",
+                  "answer": "6个",
+                  "options": [
+                    "5个",
+                    "6个",
+                    "7个",
+                    "1个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "7比6多几？",
+                  "answer": "1",
+                  "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "13"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3+4=？",
+                  "answer": "7",
+                  "options": [
+                    "6",
+                    "7",
+                    "8",
+                    "34"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_014",
+              "name": "8和9的认识与书写",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "数字8像什么？",
+                  "answer": "葫芦",
+                  "options": [
+                    "铅笔",
+                    "哨子",
+                    "葫芦",
+                    "气球"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8可以分成5和几？",
+                  "answer": "3",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9比8大几？",
+                  "answer": "1",
+                  "options": [
+                    "0",
+                    "1",
+                    "2",
+                    "17"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5+3=？",
+                  "answer": "8",
+                  "options": [
+                    "6",
+                    "7",
+                    "8",
+                    "9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9-4=？",
+                  "answer": "5",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "13"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8和6中间的数是谁？",
+                  "answer": "7",
+                  "options": [
+                    "6",
+                    "7",
+                    "9",
+                    "没有"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比9少2的数是？",
+                  "answer": "7",
+                  "options": [
+                    "11",
+                    "7",
+                    "8",
+                    "6"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9可以分成4和几？",
+                  "answer": "5",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "13"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3+5+1=？",
+                  "answer": "9",
+                  "options": [
+                    "8",
+                    "9",
+                    "7",
+                    "6"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8-0=？",
+                  "answer": "8",
+                  "options": [
+                    "0",
+                    "8",
+                    "80",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_015",
+              "name": "10的认识与组成",
+              "difficulty": 1,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "10是几位数？",
+                  "answer": "两位数",
+                  "options": [
+                    "一位数",
+                    "两位数",
+                    "三位数",
+                    "零位数"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10里面有几个一？",
+                  "answer": "10个",
+                  "options": [
+                    "1个",
+                    "0个",
+                    "10个",
+                    "9个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10可以分成7和几？",
+                  "answer": "3",
+                  "options": [
+                    "2",
+                    "3",
+                    "4",
+                    "17"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "最大的一位数是？",
+                  "answer": "9",
+                  "options": [
+                    "9",
+                    "10",
+                    "8",
+                    "0"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "6+4=？",
+                  "answer": "10",
+                  "options": [
+                    "8",
+                    "9",
+                    "10",
+                    "64"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10-3=？",
+                  "answer": "7",
+                  "options": [
+                    "13",
+                    "7",
+                    "8",
+                    "9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10的十位是几？",
+                  "answer": "1",
+                  "options": [
+                    "0",
+                    "1",
+                    "10",
+                    "没有"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10的个位是几？",
+                  "answer": "0",
+                  "options": [
+                    "0",
+                    "1",
+                    "10",
+                    "没有"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5+5=？",
+                  "answer": "10",
+                  "options": [
+                    "9",
+                    "10",
+                    "55",
+                    "0"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比9多1的数是？",
+                  "answer": "10",
+                  "options": [
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_016",
+              "name": "连加、连减运算",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "2+3+4=？",
+                  "answer": "9",
+                  "options": [
+                    "5",
+                    "9",
+                    "7",
+                    "234"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10-2-3=？",
+                  "answer": "5",
+                  "options": [
+                    "8",
+                    "5",
+                    "7",
+                    "11"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "公交车上原来8人，上来2人，又上来3人，共几人？",
+                  "answer": "13人",
+                  "options": [
+                    "10人",
+                    "13人",
+                    "8人",
+                    "5人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "妈妈买了10个包子，早上吃3个，中午吃2个，还剩几个？",
+                  "answer": "5个",
+                  "options": [
+                    "10个",
+                    "5个",
+                    "7个",
+                    "1个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3+4+2=？",
+                  "answer": "9",
+                  "options": [
+                    "7",
+                    "9",
+                    "8",
+                    "342"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9-1-3=？",
+                  "answer": "5",
+                  "options": [
+                    "8",
+                    "5",
+                    "6",
+                    "11"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "树上6只鸟，飞来2只，又飞来1只，现在？",
+                  "answer": "9只",
+                  "options": [
+                    "8只",
+                    "9只",
+                    "7只",
+                    "3只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8-2-2-2=？",
+                  "answer": "2",
+                  "options": [
+                    "6",
+                    "2",
+                    "4",
+                    "8"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "1+2+3+4=？",
+                  "answer": "10",
+                  "options": [
+                    "7",
+                    "10",
+                    "6",
+                    "9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "连加连减按什么顺序计算？",
+                  "answer": "从左到右",
+                  "options": [
+                    "从右到左",
+                    "从左到右",
+                    "随便算",
+                    "先算中间"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_017",
+              "name": "加减混合运算",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "3+4-2=？",
+                  "answer": "5",
+                  "options": [
+                    "9",
+                    "5",
+                    "7",
+                    "1"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10-4+2=？",
+                  "answer": "8",
+                  "options": [
+                    "4",
+                    "8",
+                    "6",
+                    "12"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "公交车上9人，下去3人，上来5人，现在几人？",
+                  "answer": "11人",
+                  "options": [
+                    "9人",
+                    "11人",
+                    "7人",
+                    "8人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "树上有7只鸟，飞走4只，飞来3只，现在？",
+                  "answer": "6只",
+                  "options": [
+                    "8只",
+                    "6只",
+                    "7只",
+                    "10只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8-3+1=？",
+                  "answer": "6",
+                  "options": [
+                    "4",
+                    "6",
+                    "5",
+                    "9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5+3-6=？",
+                  "answer": "2",
+                  "options": [
+                    "8",
+                    "2",
+                    "14",
+                    "4"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "操场上6人跳绳，走了2人，又来了4人？",
+                  "answer": "8人",
+                  "options": [
+                    "8人",
+                    "6人",
+                    "10人",
+                    "4人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9-5+3=？",
+                  "answer": "7",
+                  "options": [
+                    "1",
+                    "7",
+                    "11",
+                    "6"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "加减混合和连加连减的计算顺序？",
+                  "answer": "相同，都从左到右",
+                  "options": [
+                    "不同",
+                    "相同，都从左到右",
+                    "加减混合先算加",
+                    "加减混合先算减"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有7块糖，给妹妹2块，爸爸又给3块，现在？",
+                  "answer": "8块",
+                  "options": [
+                    "8块",
+                    "7块",
+                    "5块",
+                    "12块"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "11~20各数的认识",
+          "points": [
+            {
+              "id": "m1a_018",
+              "name": "11~20各数的读写",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "13读作什么？",
+                  "answer": "十三",
+                  "options": [
+                    "十三",
+                    "三十",
+                    "一三",
+                    "三一"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "二十写作什么？",
+                  "answer": "20",
+                  "options": [
+                    "2",
+                    "02",
+                    "20",
+                    "200"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "17里面有几个十和几个一？",
+                  "answer": "1个十和7个一",
+                  "options": [
+                    "1个十和7个一",
+                    "7个十和1个一",
+                    "1个十和1个一",
+                    "17个十"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "1个十和5个一组成？",
+                  "answer": "15",
+                  "options": [
+                    "51",
+                    "15",
+                    "6",
+                    "105"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "19的前面是几？",
+                  "answer": "18",
+                  "options": [
+                    "20",
+                    "18",
+                    "17",
+                    "16"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "16在15和谁中间？",
+                  "answer": "17",
+                  "options": [
+                    "14",
+                    "16",
+                    "17",
+                    "18"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "计数器上十位1颗珠、个位4颗珠，是几？",
+                  "answer": "14",
+                  "options": [
+                    "5",
+                    "14",
+                    "41",
+                    "104"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "12的十位是几？",
+                  "answer": "1",
+                  "options": [
+                    "1",
+                    "2",
+                    "12",
+                    "0"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比15大比17小的数是？",
+                  "answer": "16",
+                  "options": [
+                    "14",
+                    "16",
+                    "18",
+                    "15"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "11-20中，十位都是几？",
+                  "answer": "1",
+                  "options": [
+                    "2",
+                    "1",
+                    "10",
+                    "各不同"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_019",
+              "name": "十位和个位的认识",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "从右边起，第一位是什么位？",
+                  "answer": "个位",
+                  "options": [
+                    "十位",
+                    "个位",
+                    "百位",
+                    "没有"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "18的个位是几？",
+                  "answer": "8",
+                  "options": [
+                    "1",
+                    "8",
+                    "18",
+                    "0"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "十位上的1表示什么？",
+                  "answer": "1个十",
+                  "options": [
+                    "1个一",
+                    "1个十",
+                    "10个一",
+                    "1个百"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "个位和十位都是1的数是？",
+                  "answer": "11",
+                  "options": [
+                    "11",
+                    "2",
+                    "20",
+                    "101"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "计数器上十位有2颗珠，个位0颗，是？",
+                  "answer": "20",
+                  "options": [
+                    "2",
+                    "20",
+                    "02",
+                    "200"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "两个十是多少？",
+                  "answer": "20",
+                  "options": [
+                    "2",
+                    "20",
+                    "10",
+                    "12"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "15中，5在什么位？",
+                  "answer": "个位",
+                  "options": [
+                    "十位",
+                    "个位",
+                    "百位",
+                    "十分位"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "最大的一位数和最小的两位数相差？",
+                  "answer": "1",
+                  "options": [
+                    "0",
+                    "1",
+                    "9",
+                    "10"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10+5=？",
+                  "answer": "15",
+                  "options": [
+                    "15",
+                    "51",
+                    "6",
+                    "105"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "13中数字1和3，哪个在十位？",
+                  "answer": "1",
+                  "options": [
+                    "1",
+                    "3",
+                    "都在十位",
+                    "都不在"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_020",
+              "name": "十几加几（不进位）",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "10+7=？",
+                  "answer": "17",
+                  "options": [
+                    "17",
+                    "71",
+                    "8",
+                    "107"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "13+2=？",
+                  "answer": "15",
+                  "options": [
+                    "15",
+                    "132",
+                    "12",
+                    "33"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "11+5=？",
+                  "answer": "16",
+                  "options": [
+                    "6",
+                    "16",
+                    "61",
+                    "115"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "14+3=？先算什么？",
+                  "answer": "个位4+3=7，加上10得17",
+                  "options": [
+                    "十位1+3=4",
+                    "个位4+3=7，加上10得17",
+                    "直接14+3=143",
+                    "先算十位"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "树上有12只鸟，又飞来6只，现在多少？",
+                  "answer": "18只",
+                  "options": [
+                    "18只",
+                    "72只",
+                    "6只",
+                    "126只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有15块糖，又买了3块，一共？",
+                  "answer": "18块",
+                  "options": [
+                    "12块",
+                    "18块",
+                    "153块",
+                    "45块"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "16+3=？个位加个位，十位不变",
+                  "answer": "19",
+                  "options": [
+                    "17",
+                    "18",
+                    "19",
+                    "163"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "10+10=？",
+                  "answer": "20",
+                  "options": [
+                    "0",
+                    "20",
+                    "10",
+                    "1010"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "12+7=？",
+                  "answer": "19",
+                  "options": [
+                    "5",
+                    "19",
+                    "127",
+                    "21"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "17+2○18（填><=）",
+                  "answer": ">",
+                  "options": [
+                    ">",
+                    "<",
+                    "=",
+                    "无法比较"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_021",
+              "name": "十几加几的简单应用",
+              "difficulty": 2,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "小明前面排了10人，后面排了3人，这一队共几人？",
+                  "answer": "14人",
+                  "options": [
+                    "13人",
+                    "14人",
+                    "10人",
+                    "3人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "妈妈买了11个橘子，爸爸买了6个，一共？",
+                  "answer": "17个",
+                  "options": [
+                    "5个",
+                    "17个",
+                    "116个",
+                    "16个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "树上原本13个桃子，又长了5个，现在？",
+                  "answer": "18个",
+                  "options": [
+                    "8个",
+                    "18个",
+                    "135个",
+                    "17个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "停车场原来15辆车，又来了4辆？",
+                  "answer": "19辆",
+                  "options": [
+                    "11辆",
+                    "19辆",
+                    "154辆",
+                    "9辆"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "跳绳比赛小明跳了12下，又跳了7下？",
+                  "answer": "19下",
+                  "options": [
+                    "5下",
+                    "19下",
+                    "127下",
+                    "18下"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "书架上有14本书，又放了5本，共？",
+                  "answer": "19本",
+                  "options": [
+                    "9本",
+                    "19本",
+                    "145本",
+                    "18本"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "11+8比20大还是小？",
+                  "answer": "小",
+                  "options": [
+                    "大",
+                    "小",
+                    "等于",
+                    "不知道"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "家里养了13只鸡，又买来6只，现在多少只？",
+                  "answer": "19只",
+                  "options": [
+                    "7只",
+                    "19只",
+                    "136只",
+                    "18只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小红折了15只纸鹤，小明折了4只，共？",
+                  "answer": "19只",
+                  "options": [
+                    "11只",
+                    "19只",
+                    "154只",
+                    "20只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "15+4=10+？",
+                  "answer": "9",
+                  "options": [
+                    "5",
+                    "9",
+                    "19",
+                    "15"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "认识钟表",
+          "points": [
+            {
+              "id": "m1a_022",
+              "name": "认识钟面",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "钟面上有几根针？",
+                  "answer": "通常有3根",
+                  "options": [
+                    "1根",
+                    "2根",
+                    "通常有3根",
+                    "4根"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "短而粗的针叫什么？",
+                  "answer": "时针",
+                  "options": [
+                    "分针",
+                    "秒针",
+                    "时针",
+                    "时针和分针一样"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "长而细的针叫什么？",
+                  "answer": "分针",
+                  "options": [
+                    "时针",
+                    "分针",
+                    "秒针",
+                    "粗针"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "钟面上有多少个数字？",
+                  "answer": "12个",
+                  "options": [
+                    "10个",
+                    "12个",
+                    "24个",
+                    "60个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "钟面上最上面的数字是？",
+                  "answer": "12",
+                  "options": [
+                    "1",
+                    "6",
+                    "12",
+                    "0"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "时针和分针都指向12，是几时？",
+                  "answer": "12时",
+                  "options": [
+                    "0时",
+                    "12时",
+                    "6时",
+                    "无法确定"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "分针走一圈，时针走？",
+                  "answer": "一大格",
+                  "options": [
+                    "一圈",
+                    "一大格",
+                    "12大格",
+                    "不动"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "钟面上有多少大格？",
+                  "answer": "12大格",
+                  "options": [
+                    "5大格",
+                    "10大格",
+                    "12大格",
+                    "60大格"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "数字12在钟面的什么位置？",
+                  "answer": "正上方",
+                  "options": [
+                    "正上方",
+                    "正下方",
+                    "左边",
+                    "右边"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "时针从12走到1经过了多长时间？",
+                  "answer": "1小时",
+                  "options": [
+                    "1分钟",
+                    "1小时",
+                    "5分钟",
+                    "12小时"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_023",
+              "name": "认识整时",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "分针指向12，时针指向3，是几时？",
+                  "answer": "3时",
+                  "options": [
+                    "12时",
+                    "3时",
+                    "5时",
+                    "6时"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "早上7时整，分针指哪里？",
+                  "answer": "12",
+                  "options": [
+                    "12",
+                    "7",
+                    "6",
+                    "1"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下午5时也可以说成？",
+                  "answer": "17时",
+                  "options": [
+                    "5时",
+                    "17时",
+                    "12时",
+                    "7时"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明晚上9时睡觉，此时时针指向？",
+                  "answer": "9",
+                  "options": [
+                    "9",
+                    "12",
+                    "8",
+                    "10"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "中午12时，时针和分针？",
+                  "answer": "都指向12",
+                  "options": [
+                    "时针指向6",
+                    "分针指向6",
+                    "都指向12",
+                    "指向不同"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "学校8时上课，钟面上应该是？",
+                  "answer": "分针指12，时针指8",
+                  "options": [
+                    "分针指12，时针指8",
+                    "都指8",
+                    "分针指8，时针指12",
+                    "分针指6"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "整时时，分针总是指向？",
+                  "answer": "12",
+                  "options": [
+                    "6",
+                    "12",
+                    "3",
+                    "9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从7时到8时经过了多久？",
+                  "answer": "1小时",
+                  "options": [
+                    "1分钟",
+                    "1小时",
+                    "12小时",
+                    "7小时"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "晚上新闻联播7:00开始，7:00是？",
+                  "answer": "整时",
+                  "options": [
+                    "半时",
+                    "整时",
+                    "不是整时",
+                    "零时"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "时针从6走到7，分针走了？",
+                  "answer": "1圈",
+                  "options": [
+                    "1大格",
+                    "1圈",
+                    "60圈",
+                    "12圈"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "20以内的进位加法",
+          "points": [
+            {
+              "id": "m1a_024",
+              "name": "凑十法（9加几）",
+              "difficulty": 3,
+              "exam_weight": 4,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "9+2的凑十法：把2分成1和1，先算？",
+                  "answer": "9+1=10",
+                  "options": [
+                    "9+2=11",
+                    "9+1=10",
+                    "9+2=10",
+                    "2+9=11"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9+5=？用凑十法怎么算？",
+                  "answer": "9+1+4=14",
+                  "options": [
+                    "9+5=14",
+                    "9+1+4=14",
+                    "9+5=95",
+                    "9+10=19"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "凑十法里，9和几凑成10？",
+                  "answer": "1",
+                  "options": [
+                    "1",
+                    "2",
+                    "9",
+                    "10"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9+3=？",
+                  "answer": "12",
+                  "options": [
+                    "11",
+                    "12",
+                    "13",
+                    "93"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9+7=？",
+                  "answer": "16",
+                  "options": [
+                    "15",
+                    "16",
+                    "17",
+                    "97"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9+6=？",
+                  "answer": "15",
+                  "options": [
+                    "14",
+                    "15",
+                    "16",
+                    "96"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9+8和8+9结果一样吗？",
+                  "answer": "一样，都是17",
+                  "options": [
+                    "不一样",
+                    "一样，都是17",
+                    "9+8大",
+                    "8+9大"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9+9=？",
+                  "answer": "18",
+                  "options": [
+                    "16",
+                    "17",
+                    "18",
+                    "19"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "树上9只鸟，飞来7只，共几只？",
+                  "answer": "16只",
+                  "options": [
+                    "16只",
+                    "2只",
+                    "97只",
+                    "15只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小红做了9道题，又做6道？",
+                  "answer": "15道",
+                  "options": [
+                    "3道",
+                    "15道",
+                    "96道",
+                    "14道"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_025",
+              "name": "凑十法（8加几）",
+              "difficulty": 3,
+              "exam_weight": 4,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "8+3的凑十法：把3分成2和1，先算？",
+                  "answer": "8+2=10",
+                  "options": [
+                    "8+3=11",
+                    "8+2=10",
+                    "3+8=11",
+                    "8+10=18"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8和几凑成10？",
+                  "answer": "2",
+                  "options": [
+                    "1",
+                    "2",
+                    "8",
+                    "10"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8+5=？",
+                  "answer": "13",
+                  "options": [
+                    "12",
+                    "13",
+                    "14",
+                    "85"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8+6=？",
+                  "answer": "14",
+                  "options": [
+                    "13",
+                    "14",
+                    "15",
+                    "86"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8+4=？",
+                  "answer": "12",
+                  "options": [
+                    "11",
+                    "12",
+                    "13",
+                    "84"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8+7=？",
+                  "answer": "15",
+                  "options": [
+                    "14",
+                    "15",
+                    "16",
+                    "87"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8+8=？",
+                  "answer": "16",
+                  "options": [
+                    "15",
+                    "16",
+                    "17",
+                    "88"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "操场上8人跑步，5人跳绳，共？",
+                  "answer": "13人",
+                  "options": [
+                    "12人",
+                    "13人",
+                    "85人",
+                    "3人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有8支铅笔，又买4支，共？",
+                  "answer": "12支",
+                  "options": [
+                    "4支",
+                    "12支",
+                    "84支",
+                    "11支"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8+9和9+8相比？",
+                  "answer": "都等于17",
+                  "options": [
+                    "8+9大",
+                    "9+8大",
+                    "都等于17",
+                    "不能比较"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_026",
+              "name": "凑十法（7、6、5、4、3、2加几）",
+              "difficulty": 3,
+              "exam_weight": 4,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "7+5=？用凑十法",
+                  "answer": "12",
+                  "options": [
+                    "11",
+                    "12",
+                    "13",
+                    "75"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "6+5=？",
+                  "answer": "11",
+                  "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "65"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5+8=？交换加数用凑十法",
+                  "answer": "13",
+                  "options": [
+                    "12",
+                    "13",
+                    "14",
+                    "58"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "4+9=？",
+                  "answer": "13",
+                  "options": [
+                    "12",
+                    "13",
+                    "14",
+                    "49"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3+8=？",
+                  "answer": "11",
+                  "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "38"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "2+9=？",
+                  "answer": "11",
+                  "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "29"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "7+6=？",
+                  "answer": "13",
+                  "options": [
+                    "12",
+                    "13",
+                    "14",
+                    "76"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "两个加数交换位置，和会不会变？",
+                  "answer": "不变",
+                  "options": [
+                    "会变",
+                    "不变",
+                    "有时候变",
+                    "不知道"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "6+6=？",
+                  "answer": "12",
+                  "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "66"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "花坛左边7朵花，右边6朵，共？",
+                  "answer": "13朵",
+                  "options": [
+                    "1朵",
+                    "13朵",
+                    "76朵",
+                    "12朵"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1a_027",
+              "name": "20以内进位加法综合应用",
+              "difficulty": 3,
+              "exam_weight": 4,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "车上原有9人，上来5人，现在？",
+                  "answer": "14人",
+                  "options": [
+                    "4人",
+                    "14人",
+                    "95人",
+                    "13人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "篮子里8个苹果，又放7个，共？",
+                  "answer": "15个",
+                  "options": [
+                    "1个",
+                    "15个",
+                    "87个",
+                    "14个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明跳绳跳了9下，小红跳了6下，一共？",
+                  "answer": "15下",
+                  "options": [
+                    "3下",
+                    "15下",
+                    "96下",
+                    "14下"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "7+5+3=？",
+                  "answer": "15",
+                  "options": [
+                    "12",
+                    "15",
+                    "753",
+                    "14"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "9+4+3=？",
+                  "answer": "16",
+                  "options": [
+                    "13",
+                    "16",
+                    "943",
+                    "15"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下列哪组和最大？",
+                  "answer": "9+8",
+                  "options": [
+                    "9+8",
+                    "8+7",
+                    "7+6",
+                    "6+5"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "超市上午卖8箱水，下午卖9箱，一天？",
+                  "answer": "17箱",
+                  "options": [
+                    "1箱",
+                    "17箱",
+                    "89箱",
+                    "16箱"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "6+7+4最简便怎么算？",
+                  "answer": "先算6+4=10，再加7=17",
+                  "options": [
+                    "从左到右",
+                    "先算6+4=10，再加7=17",
+                    "先算7+4=11",
+                    "不能简算"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比8+7大，比9+8小的算式是？",
+                  "answer": "8+8",
+                  "options": [
+                    "7+8",
+                    "8+8",
+                    "9+7",
+                    "9+9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "这些算式中哪个结果不是17？",
+                  "answer": "9+7",
+                  "options": [
+                    "9+8",
+                    "8+9",
+                    "10+7",
+                    "9+7"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "一年级下册",
+      "semester": "下",
+      "units": [
+        {
+          "name": "认识图形（二）",
+          "points": [
+            {
+              "id": "m1b_001",
+              "name": "认识长方形",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "长方形有几条边？",
+                  "answer": "4条",
+                  "options": [
+                    "3条",
+                    "4条",
+                    "5条",
+                    "6条"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "长方形的对边有什么特点？",
+                  "answer": "对边相等",
+                  "options": [
+                    "对边相等",
+                    "四边相等",
+                    "没有特点",
+                    "对边不相等"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "数学书的封面是什么形状？",
+                  "answer": "长方形",
+                  "options": [
+                    "正方形",
+                    "长方形",
+                    "圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "长方形和正方形最大的区别是？",
+                  "answer": "长方形对边相等，正方形四边相等",
+                  "options": [
+                    "颜色不同",
+                    "长方形对边相等，正方形四边相等",
+                    "没有区别",
+                    "长方形更大"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用两个同样的长方形可以拼成？",
+                  "answer": "一个大长方形或正方形",
+                  "options": [
+                    "只能拼成正方形",
+                    "一个大长方形或正方形",
+                    "只能拼成三角形",
+                    "不能拼"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "黑板面接近什么形状？",
+                  "answer": "长方形",
+                  "options": [
+                    "正方形",
+                    "长方形",
+                    "圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "长方形有多少个直角？",
+                  "answer": "4个",
+                  "options": [
+                    "2个",
+                    "4个",
+                    "3个",
+                    "0个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个是长方形？",
+                  "answer": "📱",
+                  "options": [
+                    "📱",
+                    "🎲",
+                    "⏰",
+                    "🍕"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "画长方形最少需要知道什么？",
+                  "answer": "长和宽",
+                  "options": [
+                    "只知长",
+                    "只知宽",
+                    "长和宽",
+                    "周长"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "长方形沿对角线剪开得到什么？",
+                  "answer": "两个三角形",
+                  "options": [
+                    "两个正方形",
+                    "两个三角形",
+                    "两个长方形",
+                    "一个正方形"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_002",
+              "name": "认识正方形",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "正方形有几条边？",
+                  "answer": "4条",
+                  "options": [
+                    "3条",
+                    "4条",
+                    "6条",
+                    "8条"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方形的四条边有什么特点？",
+                  "answer": "四条边都相等",
+                  "options": [
+                    "对边相等",
+                    "四条边都相等",
+                    "没有相等的边",
+                    "只有两条边相等"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方形手帕是什么形状？",
+                  "answer": "正方形",
+                  "options": [
+                    "长方形",
+                    "正方形",
+                    "圆形",
+                    "菱形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用4个相同的小正方形能拼成？",
+                  "answer": "一个大正方形",
+                  "options": [
+                    "三角形",
+                    "一个大正方形",
+                    "圆形",
+                    "长方形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方形有几个直角？",
+                  "answer": "4个",
+                  "options": [
+                    "2个",
+                    "4个",
+                    "8个",
+                    "0个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个是正方形？",
+                  "answer": "🎲的一面",
+                  "options": [
+                    "📱",
+                    "🎲的一面",
+                    "📖",
+                    "⚽"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方形是特殊的长方形吗？",
+                  "answer": "是的",
+                  "options": [
+                    "是的",
+                    "不是",
+                    "有时是",
+                    "完全不同"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "正方形沿对角线对折，两边会？",
+                  "answer": "完全重合",
+                  "options": [
+                    "完全重合",
+                    "部分重合",
+                    "不重合",
+                    "变成圆形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "魔方的一个面是什么形状？",
+                  "answer": "正方形",
+                  "options": [
+                    "长方形",
+                    "正方形",
+                    "圆形",
+                    "圆柱"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "边长为3厘米的正方形，四条边共长？",
+                  "answer": "12厘米",
+                  "options": [
+                    "3厘米",
+                    "6厘米",
+                    "9厘米",
+                    "12厘米"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_003",
+              "name": "认识三角形",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "三角形有几条边？",
+                  "answer": "3条",
+                  "options": [
+                    "2条",
+                    "3条",
+                    "4条",
+                    "5条"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "三角形有几个角？",
+                  "answer": "3个",
+                  "options": [
+                    "2个",
+                    "3个",
+                    "4个",
+                    "0个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "红领巾是什么形状？",
+                  "answer": "三角形",
+                  "options": [
+                    "长方形",
+                    "正方形",
+                    "三角形",
+                    "圆形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "三根小棒一定能围成三角形吗？",
+                  "answer": "不一定（要满足两边之和大于第三边）",
+                  "options": [
+                    "一定",
+                    "不一定",
+                    "绝对不能",
+                    "要看颜色"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "三角形和四边形的主要区别？",
+                  "answer": "边的数量不同",
+                  "options": [
+                    "颜色不同",
+                    "边的数量不同",
+                    "大小不同",
+                    "没有区别"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个是三角形？",
+                  "answer": "⚠️",
+                  "options": [
+                    "📱",
+                    "🎲",
+                    "⚠️",
+                    "⏰"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "三角形具有什么特性？",
+                  "answer": "稳定性",
+                  "options": [
+                    "稳定性",
+                    "易变形",
+                    "滚动性",
+                    "对称性"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用两个完全一样的三角形可以拼成？",
+                  "answer": "平行四边形",
+                  "options": [
+                    "正方形",
+                    "平行四边形",
+                    "圆形",
+                    "梯形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "三角尺有几个角？",
+                  "answer": "3个，其中一个是直角",
+                  "options": [
+                    "1个",
+                    "2个",
+                    "3个，其中一个是直角",
+                    "4个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "生活中哪些是三角形？",
+                  "answer": "衣架、路标、屋顶",
+                  "options": [
+                    "书本、纸盒",
+                    "衣架、路标、屋顶",
+                    "皮球、弹珠",
+                    "杯子、碗"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_004",
+              "name": "认识圆",
+              "difficulty": 1,
+              "exam_weight": 1,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "圆有几条边？",
+                  "answer": "0条（曲线）",
+                  "options": [
+                    "1条",
+                    "0条（曲线）",
+                    "4条",
+                    "无数条"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "硬币的面是什么形状？",
+                  "answer": "圆形",
+                  "options": [
+                    "正方形",
+                    "长方形",
+                    "圆形",
+                    "三角形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用圆规画圆，针尖固定的点叫？",
+                  "answer": "圆心",
+                  "options": [
+                    "圆心",
+                    "圆边",
+                    "半径",
+                    "直径"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "圆和球有什么区别？",
+                  "answer": "圆是平面图形，球是立体图形",
+                  "options": [
+                    "没有区别",
+                    "圆是平面图形，球是立体图形",
+                    "球是平面图形",
+                    "圆可以滚动"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个是圆形？",
+                  "answer": "⏺️",
+                  "options": [
+                    "📱",
+                    "🎲",
+                    "⏺️",
+                    "📐"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从圆心到圆上任意一点的距离？",
+                  "answer": "都相等",
+                  "options": [
+                    "都不相等",
+                    "都相等",
+                    "有的相等有的不等",
+                    "越来越大"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "车轮为什么是圆的？",
+                  "answer": "圆形滚动最平稳",
+                  "options": [
+                    "好看",
+                    "圆形滚动最平稳",
+                    "其他形状不能滚",
+                    "容易制造"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用七巧板中的圆片能拼出什么？",
+                  "answer": "不能直接拼出，七巧板中没有圆",
+                  "options": [
+                    "正方形",
+                    "三角形",
+                    "不能直接拼出，七巧板中没有圆",
+                    "长方形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "将一张圆形纸对折两次，展开后有几条折痕？",
+                  "answer": "2条（相互垂直）",
+                  "options": [
+                    "1条",
+                    "2条（相互垂直）",
+                    "4条",
+                    "无数条"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "生活中哪些是圆形？",
+                  "answer": "钟面、盘子、井盖",
+                  "options": [
+                    "课本、黑板",
+                    "钟面、盘子、井盖",
+                    "骰子、魔方",
+                    "铅笔盒"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_005",
+              "name": "七巧板拼图",
+              "difficulty": 2,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "一副七巧板有几块？",
+                  "answer": "7块",
+                  "options": [
+                    "5块",
+                    "6块",
+                    "7块",
+                    "9块"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "七巧板中包含几种图形？",
+                  "answer": "三角形、正方形、平行四边形",
+                  "options": [
+                    "只有三角形",
+                    "三角形、正方形",
+                    "三角形、正方形、平行四边形",
+                    "所有图形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "七巧板中最多的是什么图形？",
+                  "answer": "三角形",
+                  "options": [
+                    "正方形",
+                    "三角形",
+                    "圆形",
+                    "长方形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用七巧板可以拼出什么？",
+                  "answer": "各种图案（人物动物建筑等）",
+                  "options": [
+                    "只能拼正方形",
+                    "各种图案",
+                    "只能拼三角形",
+                    "只能拼长方形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用全部7块七巧板拼成的图形叫什么？",
+                  "answer": "正方形",
+                  "options": [
+                    "三角形",
+                    "正方形",
+                    "圆形",
+                    "长方形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "两块小三角形可以拼成？",
+                  "answer": "正方形或平行四边形或中三角形",
+                  "options": [
+                    "只能拼正方形",
+                    "正方形或平行四边形或中三角形",
+                    "只能拼平行四边形",
+                    "圆形"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "七巧板中平行四边形有几块？",
+                  "answer": "1块",
+                  "options": [
+                    "0块",
+                    "1块",
+                    "2块",
+                    "3块"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "七巧板锻炼什么能力？",
+                  "answer": "空间想象力和创造力",
+                  "options": [
+                    "计算能力",
+                    "空间想象力和创造力",
+                    "阅读能力",
+                    "背诵能力"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用七巧板拼正方形最少需要几块？",
+                  "answer": "2块（两大三角形）",
+                  "options": [
+                    "1块",
+                    "2块",
+                    "4块",
+                    "7块"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪组图形可以拼成正方形？",
+                  "answer": "两个完全一样的等腰直角三角形",
+                  "options": [
+                    "两个长方形",
+                    "两个完全一样的等腰直角三角形",
+                    "两个圆形",
+                    "一个三角形一个正方形"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "20以内的退位减法",
+          "points": [
+            {
+              "id": "m1b_006",
+              "name": "十几减9的退位减法",
+              "difficulty": 3,
+              "exam_weight": 4,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "15-9=？用破十法",
+                  "answer": "6",
+                  "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "24"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "破十法：13-9，把13分成10和3，先算？",
+                  "answer": "10-9=1，再1+3=4",
+                  "options": [
+                    "13-9=4",
+                    "10-9=1，再1+3=4",
+                    "13-10=3",
+                    "9-3=6"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "11-9=？",
+                  "answer": "2",
+                  "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "20"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "17-9=？",
+                  "answer": "8",
+                  "options": [
+                    "6",
+                    "7",
+                    "8",
+                    "9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "商店有12个气球，卖出9个，还剩？",
+                  "answer": "3个",
+                  "options": [
+                    "3个",
+                    "21个",
+                    "2个",
+                    "4个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "14-9=？",
+                  "answer": "5",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "23"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "18-9=？",
+                  "answer": "9",
+                  "options": [
+                    "8",
+                    "9",
+                    "10",
+                    "27"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "16-9○7，填什么？",
+                  "answer": "=",
+                  "options": [
+                    ">",
+                    "<",
+                    "=",
+                    "无法比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "车上15人，下去9人，还剩？",
+                  "answer": "6人",
+                  "options": [
+                    "6人",
+                    "24人",
+                    "5人",
+                    "7人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有13块糖，吃了9块，还剩？",
+                  "answer": "4块",
+                  "options": [
+                    "4块",
+                    "22块",
+                    "3块",
+                    "5块"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_007",
+              "name": "十几减8、7、6的退位减法",
+              "difficulty": 3,
+              "exam_weight": 4,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "12-8=？",
+                  "answer": "4",
+                  "options": [
+                    "3",
+                    "4",
+                    "5",
+                    "20"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "14-7=？",
+                  "answer": "7",
+                  "options": [
+                    "6",
+                    "7",
+                    "8",
+                    "21"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "11-6=？",
+                  "answer": "5",
+                  "options": [
+                    "4",
+                    "5",
+                    "6",
+                    "17"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "16-8=？",
+                  "answer": "8",
+                  "options": [
+                    "7",
+                    "8",
+                    "9",
+                    "24"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "13-7=？",
+                  "answer": "6",
+                  "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "20"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "公园15人，走了8人，还剩？",
+                  "answer": "7人",
+                  "options": [
+                    "7人",
+                    "23人",
+                    "6人",
+                    "8人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小红有14本书，借出6本，还剩？",
+                  "answer": "8本",
+                  "options": [
+                    "8本",
+                    "20本",
+                    "7本",
+                    "9本"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "15-7-3=？",
+                  "answer": "5",
+                  "options": [
+                    "12",
+                    "5",
+                    "8",
+                    "11"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一盒鸡蛋12个，用了7个，还剩？",
+                  "answer": "5个",
+                  "options": [
+                    "5个",
+                    "19个",
+                    "6个",
+                    "4个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "妈妈做了16个饺子，小明吃了8个，还剩？",
+                  "answer": "8个",
+                  "options": [
+                    "8个",
+                    "24个",
+                    "7个",
+                    "9个"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_008",
+              "name": "十几减5、4、3、2的退位减法",
+              "difficulty": 3,
+              "exam_weight": 4,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "11-5=？",
+                  "answer": "6",
+                  "options": [
+                    "5",
+                    "6",
+                    "7",
+                    "16"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "12-4=？",
+                  "answer": "8",
+                  "options": [
+                    "7",
+                    "8",
+                    "9",
+                    "16"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "13-3=？",
+                  "answer": "10",
+                  "options": [
+                    "9",
+                    "10",
+                    "11",
+                    "16"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "11-2=？",
+                  "answer": "9",
+                  "options": [
+                    "8",
+                    "9",
+                    "10",
+                    "13"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "14-5=？和9+？",
+                  "answer": "9+5=14，所以14-5=9",
+                  "options": [
+                    "9+4=13",
+                    "9+5=14，所以14-5=9",
+                    "9+6=15",
+                    "5+5=10"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明做了12道题，错了3道，对了？",
+                  "answer": "9道",
+                  "options": [
+                    "9道",
+                    "15道",
+                    "8道",
+                    "10道"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "树上有13只鸟，飞走4只，还剩？",
+                  "answer": "9只",
+                  "options": [
+                    "9只",
+                    "17只",
+                    "8只",
+                    "10只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "鱼缸11条鱼，捞出2条，还剩？",
+                  "answer": "9条",
+                  "options": [
+                    "9条",
+                    "13条",
+                    "8条",
+                    "10条"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "15-5和15-3哪个大？",
+                  "answer": "15-3大",
+                  "options": [
+                    "15-5大",
+                    "15-3大",
+                    "一样大",
+                    "无法比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "算减法时可以用什么方法检验？",
+                  "answer": "加法（差+减数=被减数）",
+                  "options": [
+                    "乘法",
+                    "加法",
+                    "再减一次",
+                    "猜一猜"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_009",
+              "name": "解决问题（求剩余、求部分）",
+              "difficulty": 3,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "苹果和梨共15个，苹果9个，梨几个？用什么法？",
+                  "answer": "减法",
+                  "options": [
+                    "加法",
+                    "减法",
+                    "乘法",
+                    "除法"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有13元，买书花8元，还剩？",
+                  "answer": "5元",
+                  "options": [
+                    "5元",
+                    "21元",
+                    "4元",
+                    "6元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "停车场原来16辆，开走7辆，现在？",
+                  "answer": "9辆",
+                  "options": [
+                    "9辆",
+                    "23辆",
+                    "8辆",
+                    "10辆"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "合唱队有14人，男生6人，女生？",
+                  "answer": "8人",
+                  "options": [
+                    "8人",
+                    "20人",
+                    "7人",
+                    "9人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一包糖12颗，吃掉5颗，还剩？",
+                  "answer": "7颗",
+                  "options": [
+                    "7颗",
+                    "17颗",
+                    "6颗",
+                    "8颗"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "河里有鸭和鹅共17只，鹅8只，鸭？",
+                  "answer": "9只",
+                  "options": [
+                    "9只",
+                    "25只",
+                    "8只",
+                    "10只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "班上有18人，女生10人，男生有？",
+                  "answer": "8人",
+                  "options": [
+                    "8人",
+                    "28人",
+                    "7人",
+                    "9人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "红黄气球共15个，红的6个，黄的？",
+                  "answer": "9个",
+                  "options": [
+                    "9个",
+                    "21个",
+                    "8个",
+                    "10个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "冰箱里鸡蛋和鸭蛋共20个，鸡蛋12个？",
+                  "answer": "鸭蛋8个",
+                  "options": [
+                    "鸭蛋8个",
+                    "鸭蛋32个",
+                    "鸭蛋7个",
+                    "无法计算"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "已知总数和一部分，求另一部分用？",
+                  "answer": "减法",
+                  "options": [
+                    "加法",
+                    "减法",
+                    "乘法",
+                    "看情况"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "分类与整理",
+          "points": [
+            {
+              "id": "m1b_010",
+              "name": "按给定标准分类",
+              "difficulty": 1,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "把🍎🍊🍋🍇🍓分类，按什么分？",
+                  "answer": "都可以（水果种类）",
+                  "options": [
+                    "颜色",
+                    "大小",
+                    "都可以（水果种类）",
+                    "不能分"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "分类时同一类物品有什么特点？",
+                  "answer": "有共同特征",
+                  "options": [
+                    "完全不同",
+                    "有共同特征",
+                    "颜色相同",
+                    "大小相同"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "把动物分成会飞的和不会飞的，是按什么分？",
+                  "answer": "运动方式",
+                  "options": [
+                    "颜色",
+                    "大小",
+                    "运动方式",
+                    "数量"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "将图形按形状分，三角形有几个？△○□△☆△",
+                  "answer": "3个",
+                  "options": [
+                    "2个",
+                    "3个",
+                    "4个",
+                    "5个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "分类整理数据的第一步是？",
+                  "answer": "确定分类标准",
+                  "options": [
+                    "随便分",
+                    "确定分类标准",
+                    "数总数",
+                    "画图"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个不是分类标准？",
+                  "answer": "好看不好看",
+                  "options": [
+                    "颜色",
+                    "形状",
+                    "大小",
+                    "好看不好看"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "将5个苹果、3个梨、2个桃分类，哪种最多？",
+                  "answer": "苹果",
+                  "options": [
+                    "苹果",
+                    "梨",
+                    "桃",
+                    "一样多"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "统计时打钩或画正字是为了？",
+                  "answer": "记录数量",
+                  "options": [
+                    "好看",
+                    "记录数量",
+                    "画画",
+                    "浪费时间"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "全班同学按性别分可以分成几类？",
+                  "answer": "2类",
+                  "options": [
+                    "1类",
+                    "2类",
+                    "很多类",
+                    "不能分"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "把学习用品和玩具分开属于？",
+                  "answer": "按用途分类",
+                  "options": [
+                    "按颜色分类",
+                    "按大小分类",
+                    "按用途分类",
+                    "按价格分类"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_011",
+              "name": "自选标准分类并统计",
+              "difficulty": 2,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "一堆纽扣可以按什么分？（多选思路）",
+                  "answer": "颜色、大小、形状、孔数都可以",
+                  "options": [
+                    "只能按颜色",
+                    "颜色、大小、形状、孔数都可以",
+                    "只能按大小",
+                    "不能分"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "同一堆物品按不同标准分，结果会？",
+                  "answer": "可能不同",
+                  "options": [
+                    "一定相同",
+                    "可能不同",
+                    "一定不同",
+                    "不能确定"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "统计全班喜欢的颜色，用什么方法记录？",
+                  "answer": "举手计数或投票",
+                  "options": [
+                    "猜测",
+                    "举手计数或投票",
+                    "每个人都说一遍",
+                    "不用记录"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "分类整理的好处是？",
+                  "answer": "更清楚地了解信息",
+                  "options": [
+                    "浪费时间",
+                    "更清楚地了解信息",
+                    "没有好处",
+                    "让东西变乱"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "将15个同学按喜欢的水果分类，这是？",
+                  "answer": "按喜好分类",
+                  "options": [
+                    "按年龄",
+                    "按身高",
+                    "按喜好",
+                    "按性别"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "下面哪个分类标准不合理？",
+                  "answer": "看得顺眼和看不顺眼",
+                  "options": [
+                    "男生和女生",
+                    "看得顺眼和看不顺眼",
+                    "戴眼镜和不戴眼镜",
+                    "长头发和短头发"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "统计家里物品，电器类有几个？电视冰箱空调电扇",
+                  "answer": "4个",
+                  "options": [
+                    "2个",
+                    "3个",
+                    "4个",
+                    "5个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "统计图书角的书，按类别分：故事书8本、科普5本、漫画3本，哪种最少？",
+                  "answer": "漫画",
+                  "options": [
+                    "故事书",
+                    "科普",
+                    "漫画",
+                    "一样多"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "给动物分类，企鹅应该分在哪类？",
+                  "answer": "鸟类",
+                  "options": [
+                    "鱼类",
+                    "鸟类",
+                    "哺乳类",
+                    "爬行类"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一袋水果：5苹果3橘子2香蕉，苹果比橘子多几个？",
+                  "answer": "2个",
+                  "options": [
+                    "2个",
+                    "3个",
+                    "5个",
+                    "8个"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "认识人民币",
+          "points": [
+            {
+              "id": "m1b_012",
+              "name": "认识元、角、分",
+              "difficulty": 2,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "1元等于多少角？",
+                  "answer": "10角",
+                  "options": [
+                    "5角",
+                    "10角",
+                    "100角",
+                    "1角"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "1角等于多少分？",
+                  "answer": "10分",
+                  "options": [
+                    "1分",
+                    "10分",
+                    "100分",
+                    "5分"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5角+5角=？",
+                  "answer": "1元",
+                  "options": [
+                    "10角",
+                    "1元",
+                    "10分",
+                    "5角"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一张5元可以换几张1元？",
+                  "answer": "5张",
+                  "options": [
+                    "1张",
+                    "5张",
+                    "10张",
+                    "2张"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "1元=？分",
+                  "answer": "100分",
+                  "options": [
+                    "10分",
+                    "100分",
+                    "1000分",
+                    "1分"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3元4角=？角",
+                  "answer": "34角",
+                  "options": [
+                    "7角",
+                    "34角",
+                    "43角",
+                    "304角"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "50分=？角",
+                  "answer": "5角",
+                  "options": [
+                    "5角",
+                    "50角",
+                    "500角",
+                    "1角"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小红有8角，再给几角是1元？",
+                  "answer": "2角",
+                  "options": [
+                    "1角",
+                    "2角",
+                    "8角",
+                    "10角"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "最大的面值是人民币？",
+                  "answer": "100元",
+                  "options": [
+                    "10元",
+                    "50元",
+                    "100元",
+                    "1000元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "2张5角是多少？",
+                  "answer": "1元",
+                  "options": [
+                    "10角",
+                    "1元",
+                    "25角",
+                    "5角"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_013",
+              "name": "人民币的简单计算",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "买3元的尺子和2元的橡皮，共付多少？",
+                  "answer": "5元",
+                  "options": [
+                    "3元",
+                    "5元",
+                    "6元",
+                    "1元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有10元，买了一个6元的文具盒，找回？",
+                  "answer": "4元",
+                  "options": [
+                    "4元",
+                    "6元",
+                    "10元",
+                    "16元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一支笔2元5角，两块橡皮各1元，共？",
+                  "answer": "4元5角",
+                  "options": [
+                    "3元5角",
+                    "4元5角",
+                    "5元5角",
+                    "2元5角"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "付5元买3元的面包，应找回？",
+                  "answer": "2元",
+                  "options": [
+                    "2元",
+                    "3元",
+                    "5元",
+                    "8元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "2元+3角=？",
+                  "answer": "2元3角",
+                  "options": [
+                    "5元",
+                    "2元3角",
+                    "23角",
+                    "23元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "妈妈给10元买菜，花了7元5角，剩？",
+                  "answer": "2元5角",
+                  "options": [
+                    "2元5角",
+                    "3元5角",
+                    "17元5角",
+                    "2元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "8角+7角=？",
+                  "answer": "1元5角",
+                  "options": [
+                    "15角",
+                    "1元5角",
+                    "15元",
+                    "87角"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "1元-4角=？",
+                  "answer": "6角",
+                  "options": [
+                    "6角",
+                    "96角",
+                    "4角",
+                    "14角"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "最少的硬币凑成1元需要几个5角？",
+                  "answer": "2个",
+                  "options": [
+                    "1个",
+                    "2个",
+                    "5个",
+                    "10个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "4元+3元+2角=？",
+                  "answer": "7元2角",
+                  "options": [
+                    "7元2角",
+                    "9元",
+                    "72元",
+                    "432元"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "100以内数的认识",
+          "points": [
+            {
+              "id": "m1b_014",
+              "name": "100以内数的读写与组成",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "58读作？",
+                  "answer": "五十八",
+                  "options": [
+                    "五八",
+                    "五十八",
+                    "八十五",
+                    "五和八"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "7个十和3个一组成？",
+                  "answer": "73",
+                  "options": [
+                    "37",
+                    "73",
+                    "10",
+                    "703"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "100是几位数？",
+                  "answer": "三位数",
+                  "options": [
+                    "一位数",
+                    "两位数",
+                    "三位数",
+                    "零位数"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "99再添1是？",
+                  "answer": "100",
+                  "options": [
+                    "100",
+                    "98",
+                    "90",
+                    "991"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "46中，4在什么位？",
+                  "answer": "十位",
+                  "options": [
+                    "个位",
+                    "十位",
+                    "百位",
+                    "没有"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "十个十是多少？",
+                  "answer": "一百",
+                  "options": [
+                    "十",
+                    "二十",
+                    "一百",
+                    "一千"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "52前面的一个数是？",
+                  "answer": "51",
+                  "options": [
+                    "53",
+                    "51",
+                    "50",
+                    "52"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从右边起第三位是？",
+                  "answer": "百位",
+                  "options": [
+                    "个位",
+                    "十位",
+                    "百位",
+                    "千位"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "89由几个十和几个一组成？",
+                  "answer": "8个十和9个一",
+                  "options": [
+                    "8个十和9个一",
+                    "9个十和8个一",
+                    "80个十和9个一",
+                    "8和9"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从小到大：45 54 44 55 中间的是？",
+                  "answer": "54",
+                  "options": [
+                    "45",
+                    "54",
+                    "44",
+                    "55"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_015",
+              "name": "100以内数的顺序与大小比较",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "73和37哪个大？",
+                  "answer": "73",
+                  "options": [
+                    "73",
+                    "37",
+                    "一样大",
+                    "无法比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比69大1的数是？",
+                  "answer": "70",
+                  "options": [
+                    "68",
+                    "70",
+                    "79",
+                    "96"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "在45和47中间的数是？",
+                  "answer": "46",
+                  "options": [
+                    "44",
+                    "46",
+                    "48",
+                    "没有"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "从大到小排列：28 82 22 88",
+                  "answer": "88>82>28>22",
+                  "options": [
+                    "88>82>28>22",
+                    "22>28>82>88",
+                    "82>88>28>22",
+                    "一样大"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "十位是5的数中，最大的是？",
+                  "answer": "59",
+                  "options": [
+                    "50",
+                    "59",
+                    "95",
+                    "55"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "78○87，填什么符号？",
+                  "answer": "<",
+                  "options": [
+                    ">",
+                    "<",
+                    "=",
+                    "无法比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "比70大、比80小的双数有几个？",
+                  "answer": "4个(72,74,76,78)",
+                  "options": [
+                    "3个",
+                    "4个",
+                    "5个",
+                    "9个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "个位和十位数字相同的两位数有？",
+                  "answer": "9个(11,22...99)",
+                  "options": [
+                    "8个",
+                    "9个",
+                    "10个",
+                    "1个"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "最大的两位数比最小的三位数？",
+                  "answer": "小1",
+                  "options": [
+                    "大1",
+                    "小1",
+                    "相等",
+                    "大99"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "按规律：90 85 80 75 ?",
+                  "answer": "70",
+                  "options": [
+                    "65",
+                    "70",
+                    "80",
+                    "60"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_016",
+              "name": "整十数加一位数及减法",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "30+5=？",
+                  "answer": "35",
+                  "options": [
+                    "35",
+                    "53",
+                    "8",
+                    "305"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "47-7=？",
+                  "answer": "40",
+                  "options": [
+                    "40",
+                    "47",
+                    "7",
+                    "54"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "50+8=？",
+                  "answer": "58",
+                  "options": [
+                    "58",
+                    "85",
+                    "13",
+                    "508"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "69-9=？",
+                  "answer": "60",
+                  "options": [
+                    "60",
+                    "69",
+                    "9",
+                    "78"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "20+？=25",
+                  "answer": "5",
+                  "options": [
+                    "5",
+                    "25",
+                    "45",
+                    "15"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "84-？=80",
+                  "answer": "4",
+                  "options": [
+                    "4",
+                    "80",
+                    "84",
+                    "0"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3个十加6个一是？",
+                  "answer": "36",
+                  "options": [
+                    "36",
+                    "63",
+                    "9",
+                    "306"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "十位3个位5，减去十位3个位0等于？",
+                  "answer": "5",
+                  "options": [
+                    "5",
+                    "30",
+                    "35",
+                    "0"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "花坛有40朵红花，8朵黄花，一共？",
+                  "answer": "48朵",
+                  "options": [
+                    "32朵",
+                    "48朵",
+                    "408朵",
+                    "12朵"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "65颗糖，吃掉5颗，还剩？",
+                  "answer": "60颗",
+                  "options": [
+                    "60颗",
+                    "70颗",
+                    "65颗",
+                    "10颗"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "100以内的加法和减法（一）",
+          "points": [
+            {
+              "id": "m1b_017",
+              "name": "整十数加减整十数",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "20+30=？",
+                  "answer": "50",
+                  "options": [
+                    "50",
+                    "60",
+                    "5",
+                    "2030"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "80-50=？",
+                  "answer": "30",
+                  "options": [
+                    "30",
+                    "40",
+                    "130",
+                    "3"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "60+40=？",
+                  "answer": "100",
+                  "options": [
+                    "100",
+                    "90",
+                    "70",
+                    "6040"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "70-20=？可以先算7-2=5得？",
+                  "answer": "50",
+                  "options": [
+                    "5",
+                    "50",
+                    "90",
+                    "500"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "图书馆上午借出40本，下午借出30本，共？",
+                  "answer": "70本",
+                  "options": [
+                    "70本",
+                    "10本",
+                    "50本",
+                    "4030本"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "鸡有50只，鸭比鸡少20只，鸭有？",
+                  "answer": "30只",
+                  "options": [
+                    "30只",
+                    "70只",
+                    "50只",
+                    "20只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "30+？=80",
+                  "answer": "50",
+                  "options": [
+                    "50",
+                    "40",
+                    "110",
+                    "30"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "90-？=30",
+                  "answer": "60",
+                  "options": [
+                    "60",
+                    "30",
+                    "120",
+                    "90"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "整十数加减整十数：先算十位上的数，再添？",
+                  "answer": "一个0",
+                  "options": [
+                    "一个0",
+                    "两个0",
+                    "不用添",
+                    "添什么看情况"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一箱苹果30个，另一箱40个，两车？不，两箱共？",
+                  "answer": "70个",
+                  "options": [
+                    "70个",
+                    "10个",
+                    "50个",
+                    "12个"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_018",
+              "name": "两位数加一位数、整十数（不进位）",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "23+5=？",
+                  "answer": "28",
+                  "options": [
+                    "28",
+                    "73",
+                    "235",
+                    "10"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "35+20=？",
+                  "answer": "55",
+                  "options": [
+                    "55",
+                    "37",
+                    "3520",
+                    "15"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "42+6=？先算2+6=8，再？",
+                  "answer": "40+8=48",
+                  "options": [
+                    "40+8=48",
+                    "40+6=46",
+                    "42+8=50",
+                    "48+0=48"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "56+30=？",
+                  "answer": "86",
+                  "options": [
+                    "86",
+                    "59",
+                    "5630",
+                    "26"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有24元，妈妈给5元，现在？",
+                  "answer": "29元",
+                  "options": [
+                    "29元",
+                    "74元",
+                    "245元",
+                    "19元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "车上31人，上来8人，现在？",
+                  "answer": "39人",
+                  "options": [
+                    "39人",
+                    "23人",
+                    "318人",
+                    "40人"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "45+3○45+30",
+                  "answer": "<",
+                  "options": [
+                    ">",
+                    "<",
+                    "=",
+                    "无法比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "67+2=？",
+                  "answer": "69",
+                  "options": [
+                    "69",
+                    "87",
+                    "672",
+                    "65"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "个位加个位，十位加十位，这是？",
+                  "answer": "相同数位相加",
+                  "options": [
+                    "不同数位相加",
+                    "相同数位相加",
+                    "随便加",
+                    "先加十位"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "一盒铅笔20支，另一盒7支，共？",
+                  "answer": "27支",
+                  "options": [
+                    "27支",
+                    "207支",
+                    "9支",
+                    "13支"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_019",
+              "name": "两位数减一位数、整十数（不退位）",
+              "difficulty": 2,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "38-5=？",
+                  "answer": "33",
+                  "options": [
+                    "33",
+                    "87",
+                    "385",
+                    "43"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "56-20=？",
+                  "answer": "36",
+                  "options": [
+                    "36",
+                    "76",
+                    "5620",
+                    "54"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "49-7=？先算9-7=2，再？",
+                  "answer": "40+2=42",
+                  "options": [
+                    "40+2=42",
+                    "40-7=33",
+                    "49-2=47",
+                    "9-4=5"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "75-30=？",
+                  "answer": "45",
+                  "options": [
+                    "45",
+                    "72",
+                    "7530",
+                    "105"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "书店原有47本书，卖出5本，还剩？",
+                  "answer": "42本",
+                  "options": [
+                    "42本",
+                    "52本",
+                    "475本",
+                    "40本"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "妈妈有68元，花30元，还剩？",
+                  "answer": "38元",
+                  "options": [
+                    "38元",
+                    "98元",
+                    "65元",
+                    "6830元"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "85-4○85-40",
+                  "answer": ">",
+                  "options": [
+                    ">",
+                    "<",
+                    "=",
+                    "无法比较"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "93-2=？",
+                  "answer": "91",
+                  "options": [
+                    "91",
+                    "73",
+                    "932",
+                    "95"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "减法也用相同数位相减吗？",
+                  "answer": "是的",
+                  "options": [
+                    "不是",
+                    "是的",
+                    "不一定",
+                    "先减十位"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "筐里54个鸡蛋，拿走20个，还剩？",
+                  "answer": "34个",
+                  "options": [
+                    "34个",
+                    "74个",
+                    "52个",
+                    "5420个"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_020",
+              "name": "认识小括号及含小括号的运算",
+              "difficulty": 3,
+              "exam_weight": 3,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "10-(2+3)=？先算什么？",
+                  "answer": "先算括号里的2+3=5",
+                  "options": [
+                    "先算10-2=8",
+                    "先算括号里的2+3=5",
+                    "从左到右",
+                    "从右到左"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "15-(6+4)=？",
+                  "answer": "5",
+                  "options": [
+                    "13",
+                    "5",
+                    "15",
+                    "25"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "(8+7)-5=？",
+                  "answer": "10",
+                  "options": [
+                    "10",
+                    "20",
+                    "0",
+                    "16"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "20-(3+7)=？",
+                  "answer": "10",
+                  "options": [
+                    "10",
+                    "24",
+                    "30",
+                    "16"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "有括号的算式，先算什么？",
+                  "answer": "括号里面的",
+                  "options": [
+                    "括号外面的",
+                    "括号里面的",
+                    "左边的",
+                    "右边的"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "小明有20元，买书(5元)和笔(3元)，剩多少？列式",
+                  "answer": "20-(5+3)",
+                  "options": [
+                    "20-5+3",
+                    "20-(5+3)",
+                    "20-5-3",
+                    "(20-5)+3"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "12-(3+4)和12-3-4结果？",
+                  "answer": "相等，都是5",
+                  "options": [
+                    "不相等",
+                    "相等，都是5",
+                    "第一个大",
+                    "第二个大"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "原来18只鸟，飞走(5+3)只，还剩？",
+                  "answer": "10只",
+                  "options": [
+                    "16只",
+                    "10只",
+                    "26只",
+                    "20只"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "括号的作用是？",
+                  "answer": "改变运算顺序，先算括号内",
+                  "options": [
+                    "装饰",
+                    "改变运算顺序",
+                    "没有作用",
+                    "让算式变长"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "妈妈买了15个包子，早饭吃3个午饭吃5个，用括号？",
+                  "answer": "15-(3+5)",
+                  "options": [
+                    "15-3+5",
+                    "15-(3+5)",
+                    "15-3-5",
+                    "(15-3)+5"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "找规律",
+          "points": [
+            {
+              "id": "m1b_021",
+              "name": "图形中的规律",
+              "difficulty": 2,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "△○△○△？下一个是？",
+                  "answer": "○",
+                  "options": [
+                    "△",
+                    "○",
+                    "□",
+                    "☆"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "□△△□△△□？接下来？",
+                  "answer": "△",
+                  "options": [
+                    "□",
+                    "△",
+                    "○",
+                    "结束"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "找规律的核心是？",
+                  "answer": "发现重复的模式",
+                  "options": [
+                    "猜测",
+                    "发现重复的模式",
+                    "随便填",
+                    "看心情"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "★★☆★★☆★★？",
+                  "answer": "☆",
+                  "options": [
+                    "★",
+                    "☆",
+                    "结束",
+                    "不确定"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "红蓝蓝红蓝蓝红？接下来颜色",
+                  "answer": "蓝",
+                  "options": [
+                    "红",
+                    "蓝",
+                    "绿",
+                    "黄"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "○☆□○☆□○☆？",
+                  "answer": "□",
+                  "options": [
+                    "○",
+                    "☆",
+                    "□",
+                    "结束"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "🍎🍊🍎🍊🍎🍊？",
+                  "answer": "🍎",
+                  "options": [
+                    "🍎",
+                    "🍊",
+                    "🍋",
+                    "结束"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "按规律画第8个：△△○△△○△△○△？",
+                  "answer": "△",
+                  "options": [
+                    "△",
+                    "○",
+                    "△△",
+                    "○△"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "用语言描述规律：⭐🌙⭐🌙⭐🌙",
+                  "answer": "星星月亮交替出现",
+                  "options": [
+                    "没有规律",
+                    "星星月亮交替出现",
+                    "都是星星",
+                    "都是月亮"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "自己创造规律：可以怎么排列？",
+                  "answer": "按自己设定的模式重复",
+                  "options": [
+                    "随便放",
+                    "按自己设定的模式重复",
+                    "只能按颜色",
+                    "不能创造"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "m1b_022",
+              "name": "数字中的规律",
+              "difficulty": 2,
+              "exam_weight": 2,
+              "questions": [
+                {
+                  "type": "choice",
+                  "question": "2 4 6 8 ？ 下一个数",
+                  "answer": "10",
+                  "options": [
+                    "9",
+                    "10",
+                    "12",
+                    "16"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "1 3 5 7 ？",
+                  "answer": "9",
+                  "options": [
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "5 10 15 20 ？",
+                  "answer": "25",
+                  "options": [
+                    "21",
+                    "25",
+                    "30",
+                    "100"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "20 18 16 14 ？",
+                  "answer": "12",
+                  "options": [
+                    "10",
+                    "12",
+                    "16",
+                    "13"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "1 4 7 10 ？每次加几？",
+                  "answer": "加3",
+                  "options": [
+                    "加1",
+                    "加2",
+                    "加3",
+                    "加4"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "3 6 9 12 ？",
+                  "answer": "15",
+                  "options": [
+                    "13",
+                    "15",
+                    "18",
+                    "24"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "50 45 40 35 ？每次减几？",
+                  "answer": "减5",
+                  "options": [
+                    "减3",
+                    "减5",
+                    "减10",
+                    "加5"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "11 22 33 44 ？",
+                  "answer": "55",
+                  "options": [
+                    "45",
+                    "55",
+                    "66",
+                    "44"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "1 2 4 7 11 ？这是什么规律？",
+                  "answer": "依次加1、2、3、4、5",
+                  "options": [
+                    "每次加1",
+                    "依次加1、2、3、4、5",
+                    "每次加2",
+                    "乘积"
+                  ]
+                },
+                {
+                  "type": "choice",
+                  "question": "100 90 80 70 ？ 50",
+                  "answer": "60",
+                  "options": [
+                    "60",
+                    "50",
+                    "80",
+                    "75"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
